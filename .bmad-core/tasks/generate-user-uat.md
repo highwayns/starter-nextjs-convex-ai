@@ -107,7 +107,7 @@ For each acceptance criteria:
 ## Output File
 
 Generate the UAT plan as:
-`docs/testing/uat-plan-{epic}.{story}.md`
+`docs/template-development/testing/stories/story-acceptance-test-{epic}.{story}.md`
 
 ## Template Variables
 

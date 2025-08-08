@@ -40,7 +40,7 @@ Then proceed with the manual method below ONLY if markdownExploder is false.]]
 
    ```bash
    # For PRD
-   md-tree explode docs/prd.md docs/prd
+   md-tree explode docs/template-development/prd.md docs/template-development/prd
 
    # For Architecture
    md-tree explode docs/architecture.md docs/architecture
@@ -67,7 +67,7 @@ If the user has @kayvan/markdown-tree-parser installed, use it and skip the manu
 
 - Determine which document to shard (user-provided path)
 - Create a new folder under `docs/` with the same name as the document (without extension)
-- Example: `docs/prd.md` → create folder `docs/prd/`
+- Example: `docs/template-development/prd.md` → create folder `docs/template-development/prd/`
 
 2. Parse and Extract Sections
 
@@ -91,13 +91,11 @@ CRITICAL: Use proper parsing that understands markdown context. A ## inside a co
 For each extracted section:
 
 1. **Generate filename**: Convert the section heading to lowercase-dash-case
-
    - Remove special characters
    - Replace spaces with dashes
    - Example: "## Tech Stack" → `tech-stack.md`
 
 2. **Adjust heading levels**:
-
    - The level 2 heading becomes level 1 (# instead of ##) in the sharded new document
    - All subsection levels decrease by 1:
 

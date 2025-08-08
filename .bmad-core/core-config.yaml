@@ -1,10 +1,10 @@
 version: 4.29.0
 markdownExploder: true
 prd:
-  prdFile: docs/prd.md
+  prdFile: docs/template-development/prd.md
   prdVersion: v4
   prdSharded: true
-  prdShardedLocation: docs/prd
+  prdShardedLocation: docs/template-development/prd
   epicFilePattern: epic-{n}*.md
 architecture:
   architectureFile: docs/architecture.md
@@ -15,10 +15,10 @@ customTechnicalDocuments: null
 devLoadAlwaysFiles:
   - docs/architecture/coding-standards.md
   - docs/architecture/tech-stack.md
-  - docs/architecture/source-tree.md
+  - docs/architecture/source-tree/README.md
   - docs/testing/technical/testing-infrastructure-lessons-learned.md
   - docs/testing/technical/testing-patterns.md
   - docs/testing/technical/test-strategy-and-standards.md
 devDebugLog: .ai/debug-log.md
-devStoryLocation: docs/stories
+devStoryLocation: docs/template-development/stories
 slashPrefix: BMad

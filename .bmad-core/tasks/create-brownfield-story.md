@@ -26,14 +26,14 @@ Create detailed, implementation-ready stories for brownfield projects where trad
 
 Check for available documentation in this order:
 
-1. **Sharded PRD/Architecture** (docs/prd/, docs/architecture/)
+1. **Sharded PRD/Architecture** (docs/template-development/prd/, docs/architecture/)
    - If found, recommend using create-next-story task instead
 
 2. **Brownfield Architecture Document** (docs/brownfield-architecture.md or similar)
    - Created by document-project task
    - Contains actual system state, technical debt, workarounds
 
-3. **Brownfield PRD** (docs/prd.md)
+3. **Brownfield PRD** (docs/template-development/prd.md)
    - May contain embedded technical details
 
 4. **Epic Files** (docs/epics/ or similar)
@@ -128,7 +128,7 @@ Critical: For brownfield, ALWAYS include criteria about maintaining existing fun
 Standard structure:
 
 1. New functionality works as specified
-2. Existing {{affected feature}} continues to work unchanged  
+2. Existing {{affected feature}} continues to work unchanged
 3. Integration with {{existing system}} maintains current behavior
 4. No regression in {{related area}}
 5. Performance remains within acceptable bounds
@@ -139,16 +139,19 @@ Critical: This is where you'll need to be interactive with the user if informati
 
 Create Dev Technical Guidance section with available information:
 
-```markdown
+````markdown
 ## Dev Technical Guidance
 
 ### Existing System Context
+
 [Extract from available documentation]
 
 ### Integration Approach
+
 [Based on patterns found or ask user]
 
 ### Technical Constraints
+
 [From documentation or user input]
 
 ### Missing Information
@@ -191,6 +194,7 @@ Example task structure for brownfield:
   - [ ] Integration test for {{integration point}}
   - [ ] Update existing tests if needed
 ```
+````
 
 ### 5. Risk Assessment and Mitigation
 
@@ -202,14 +206,17 @@ Add section for brownfield-specific risks:
 ## Risk Assessment
 
 ### Implementation Risks
+
 - **Primary Risk**: {{main risk to existing system}}
 - **Mitigation**: {{how to address}}
 - **Verification**: {{how to confirm safety}}
 
 ### Rollback Plan
+
 - {{Simple steps to undo changes if needed}}
 
 ### Safety Checks
+
 - [ ] Existing {{feature}} tested before changes
 - [ ] Changes can be feature-flagged or isolated
 - [ ] Rollback procedure documented
@@ -239,8 +246,8 @@ Before finalizing:
 
 Save the story with appropriate naming:
 
-- If from epic: `docs/stories/epic-{n}-story-{m}.md`
-- If standalone: `docs/stories/brownfield-{feature-name}.md`
+- If from epic: `docs/template-development/stories/epic-{n}-story-{m}.md`
+- If standalone: `docs/template-development/stories/brownfield-{feature-name}.md`
 - If sequential: Follow existing story numbering
 
 Include header noting documentation context:
@@ -252,6 +259,7 @@ Include header noting documentation context:
 <!-- Context: Brownfield enhancement to {{existing system}} -->
 
 ## Status: Draft
+
 [Rest of story content...]
 ```
 
@@ -272,7 +280,7 @@ Key Integration Points Identified:
 Risks Noted:
 - {{primary risk}}
 
-{{If missing info}}: 
+{{If missing info}}:
 Note: Some technical details were unclear. The story includes exploration tasks to gather needed information during implementation.
 
 Next Steps:

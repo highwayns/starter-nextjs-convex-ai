@@ -4,8 +4,8 @@ template:
   version: 1.0
   output:
     format: markdown
-    filename: docs/testing/uat-plan-{{epic_num}}.{{story_num}}.md
-    title: 'UAT Plan - Story {{epic_num}}.{{story_num}}: {{story_title_short}}'
+    filename: docs/template-development/testing/stories/story-acceptance-test-{{epic_num}}.{{story_num}}.md
+    title: 'Story Acceptance Test - Story {{epic_num}}.{{story_num}}: {{story_title_short}}'
 
 workflow:
   mode: interactive
