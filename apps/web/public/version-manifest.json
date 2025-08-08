@@ -1,6 +1,13 @@
 {
   "versions": [
     {
+      "version": "0.6.2",
+      "commitHash": "c64aa26590e3ab2a9df9c55401209abc5dc68619",
+      "timestamp": 1754619752,
+      "description": "docs: create comprehensive React 19 + Next.js 15 implementation frameworkStory & Planning:- Close Story 1.10 as research spike with evolved story reference- Create Story 1.11: React 19 + Next.js 15 with OpenNext Cloudflare Workers- Complete Product Owner validation confirms implementation readinessImplementation Framework:- Add comprehensive implementation action plan with step-by-step guidance- Create living documentation audit trail structure for real-time tracking- Update timeline decision ma",
+      "commitUrl": "https://github.com/appydave-templates/starter-nextjs-convex-ai/commit/c64aa26590e3ab2a9df9c55401209abc5dc68619"
+    },
+    {
       "version": "0.6.1",
       "commitHash": "ccb052f2125e27f5651fce677b7dcea2a8c8a44f",
       "timestamp": 1754580291,
@@ -132,15 +139,8 @@
       "timestamp": 1754202322,
       "description": "docs: implement KDD process for environment variable management",
       "commitUrl": "https://github.com/appydave-templates/starter-nextjs-convex-ai/commit/ee36b7d694af58359aa13192ee820cbf7ad6dbce"
-    },
-    {
-      "version": "0.2.7",
-      "commitHash": "11804eb8003bdb89dffc9c032b45e2f83171347f",
-      "timestamp": 1754203009,
-      "description": "ci: add missing environment variables to build workflow",
-      "commitUrl": "https://github.com/appydave-templates/starter-nextjs-convex-ai/commit/11804eb8003bdb89dffc9c032b45e2f83171347f"
     }
   ],
-  "current": "0.6.1",
-  "lastUpdated": 1754580291
+  "current": "0.6.2",
+  "lastUpdated": 1754619752
 }
