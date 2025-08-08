@@ -17,9 +17,6 @@ out/
 apps/web/.next/
 apps/web/out/
 
-# Storybook
-storybook-static/
-packages/storybook/storybook-static/
 
 # Cloudflare
 .wrangler/
