@@ -1,6 +1,13 @@
 {
   "versions": [
     {
+      "version": "0.6.4",
+      "commitHash": "152dc4be76151da33f20baf40300ada252cec113",
+      "timestamp": 1754664066,
+      "description": "chore: remove Storybook configuration and dependencies- Delete entire packages/storybook directory (100+ files including config, stories, assets)- Remove 3 storybook-related npm scripts from root package.json- Clean up storybook references in eslint.config.js (comments and disabled plugin)- Remove storybook-static entries from .gitignore- Clean up 1 unused dependency via bun install- Verify lint and typecheck commands still work correctlyTechnical impact: 41 files deleted, 4 configuration files ",
+      "commitUrl": "https://github.com/appydave-templates/starter-nextjs-convex-ai/commit/152dc4be76151da33f20baf40300ada252cec113"
+    },
+    {
       "version": "0.6.3",
       "commitHash": "c75666e8144ae8a50283282450e40108bcf1fc59",
       "timestamp": 1754662678,
@@ -132,15 +139,8 @@
       "timestamp": 1754196297,
       "description": "fix: remove CI=true override blocking environment variables",
       "commitUrl": "https://github.com/appydave-templates/starter-nextjs-convex-ai/commit/fbdb4195efae29b3007d4e34604d0590cdeeb59f"
-    },
-    {
-      "version": "0.2.5",
-      "commitHash": "41d6178b1bcfaaa9f05e987765aedd1014a8861f",
-      "timestamp": 1754200417,
-      "description": "chore: improve development workflow and file management",
-      "commitUrl": "https://github.com/appydave-templates/starter-nextjs-convex-ai/commit/41d6178b1bcfaaa9f05e987765aedd1014a8861f"
     }
   ],
-  "current": "0.6.3",
-  "lastUpdated": 1754662678
+  "current": "0.6.4",
+  "lastUpdated": 1754664066
 }
