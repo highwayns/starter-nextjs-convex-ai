@@ -1,6 +1,13 @@
 {
   "versions": [
     {
+      "version": "0.6.3",
+      "commitHash": "c75666e8144ae8a50283282450e40108bcf1fc59",
+      "timestamp": 1754662678,
+      "description": "chore: update BMAD paths to docs/template-development structure- Update core-config.yaml to point PRD and stories to docs/template-development/- Update all BMAD templates (prd, story, uat) to output to template-development paths- Update task files (create-brownfield-story, generate-user-uat, shard-doc) with new paths- Update QA agent to reference docs/template-development/stories location- Fix devLoadAlwaysFiles path: docs/architecture/source-tree.md → source-tree/README.mdThis separates templ",
+      "commitUrl": "https://github.com/appydave-templates/starter-nextjs-convex-ai/commit/c75666e8144ae8a50283282450e40108bcf1fc59"
+    },
+    {
       "version": "0.6.2",
       "commitHash": "c64aa26590e3ab2a9df9c55401209abc5dc68619",
       "timestamp": 1754619752,
@@ -132,15 +139,8 @@
       "timestamp": 1754200417,
       "description": "chore: improve development workflow and file management",
       "commitUrl": "https://github.com/appydave-templates/starter-nextjs-convex-ai/commit/41d6178b1bcfaaa9f05e987765aedd1014a8861f"
-    },
-    {
-      "version": "0.2.6",
-      "commitHash": "ee36b7d694af58359aa13192ee820cbf7ad6dbce",
-      "timestamp": 1754202322,
-      "description": "docs: implement KDD process for environment variable management",
-      "commitUrl": "https://github.com/appydave-templates/starter-nextjs-convex-ai/commit/ee36b7d694af58359aa13192ee820cbf7ad6dbce"
     }
   ],
-  "current": "0.6.2",
-  "lastUpdated": 1754619752
+  "current": "0.6.3",
+  "lastUpdated": 1754662678
 }
