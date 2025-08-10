@@ -1,6 +1,13 @@
 {
   "versions": [
     {
+      "version": "0.8.0",
+      "commitHash": "050b0700c4237ef2b853631caa4db1963a510374",
+      "timestamp": 1754809761,
+      "description": "feat: add /api/debug-env endpoint to troubleshoot environment variables",
+      "commitUrl": "https://github.com/appydave-templates/starter-nextjs-convex-ai/commit/050b0700c4237ef2b853631caa4db1963a510374"
+    },
+    {
       "version": "0.7.1",
       "commitHash": "30909456369d5d047e0fa7f18971dffa82cd7515",
       "timestamp": 1754808672,
@@ -132,15 +139,8 @@
       "timestamp": 1754192791,
       "description": "fix: remove local build from Cloudflare Pages deployment",
       "commitUrl": "https://github.com/appydave-templates/starter-nextjs-convex-ai/commit/3864fc9099e389eb27c2713831b1ee45f62c0d72"
-    },
-    {
-      "version": "0.2.2",
-      "commitHash": "8174c7ca943ca67f371ce79e013b83352c7375bb",
-      "timestamp": 1754195448,
-      "description": "fix: trigger rebuild to use Cloudflare dashboard environment variables",
-      "commitUrl": "https://github.com/appydave-templates/starter-nextjs-convex-ai/commit/8174c7ca943ca67f371ce79e013b83352c7375bb"
     }
   ],
-  "current": "0.7.1",
-  "lastUpdated": 1754808672
+  "current": "0.8.0",
+  "lastUpdated": 1754809761
 }
