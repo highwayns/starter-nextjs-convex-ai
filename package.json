@@ -56,6 +56,8 @@
     "sync": "./scripts/sync.sh",
     "sync:force": "./scripts/sync.sh --force",
     "sync-env": "node ./scripts/sync-env.js",
+    "env:setup": "node ./scripts/env-setup.js",
+    "env:validate": "test -f ~/.env-configs/starter-nextjs-convex-ai.env && echo '✅ Environment file exists' || echo '❌ Run: bun env:setup'",
     "seed:knowledge": "node scripts/seed-knowledge.cjs",
     "seed:knowledge:dry": "node scripts/seed-knowledge.cjs --dry-run",
     "migrate:logging-cleanup": "./scripts/migrate-logging-cleanup.sh",
