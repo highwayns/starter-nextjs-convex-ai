@@ -1,6 +1,13 @@
 {
   "versions": [
     {
+      "version": "0.8.1",
+      "commitHash": "e81d6cefbcd931bcf6c7fa950590052d5e07d82a",
+      "timestamp": 1754812081,
+      "description": "fix: add NEXT_PUBLIC_GITHUB_REPO to CI build environment variables",
+      "commitUrl": "https://github.com/appydave-templates/starter-nextjs-convex-ai/commit/e81d6cefbcd931bcf6c7fa950590052d5e07d82a"
+    },
+    {
       "version": "0.8.0",
       "commitHash": "050b0700c4237ef2b853631caa4db1963a510374",
       "timestamp": 1754809761,
@@ -132,15 +139,8 @@
       "timestamp": 1754192066,
       "description": "feat: add wrangler.toml with environment variables for Cloudflare Pages",
       "commitUrl": "https://github.com/appydave-templates/starter-nextjs-convex-ai/commit/e674b8f4cd1ea08ad4642c25a1e57a337a8f6b3f"
-    },
-    {
-      "version": "0.2.1",
-      "commitHash": "3864fc9099e389eb27c2713831b1ee45f62c0d72",
-      "timestamp": 1754192791,
-      "description": "fix: remove local build from Cloudflare Pages deployment",
-      "commitUrl": "https://github.com/appydave-templates/starter-nextjs-convex-ai/commit/3864fc9099e389eb27c2713831b1ee45f62c0d72"
     }
   ],
-  "current": "0.8.0",
-  "lastUpdated": 1754809761
+  "current": "0.8.1",
+  "lastUpdated": 1754812081
 }
