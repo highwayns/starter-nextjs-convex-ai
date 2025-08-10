@@ -1,6 +1,13 @@
 {
   "versions": [
     {
+      "version": "0.7.0",
+      "commitHash": "5623f5df1b91d07f76747d7f842dd3b4c864b11f",
+      "timestamp": 1754808262,
+      "description": "feat: implement centralized environment configuration system- Move environment files from repository to ~/.env-configs/ for enhanced security- Update sync-env.js to auto-detect project name and use centralized location- Add env-setup.js helper script for easy migration and setup- Update .gitignore to prevent accidental commits of legacy env files- Add package.json scripts: env:setup and env:validate- Implement secure file permissions (600) and organized backup structure- Benefits: eliminates git",
+      "commitUrl": "https://github.com/appydave-templates/starter-nextjs-convex-ai/commit/5623f5df1b91d07f76747d7f842dd3b4c864b11f"
+    },
+    {
       "version": "0.6.4",
       "commitHash": "152dc4be76151da33f20baf40300ada252cec113",
       "timestamp": 1754664066,
@@ -132,15 +139,8 @@
       "timestamp": 1754195825,
       "description": "build: add environment variable debugging to build process",
       "commitUrl": "https://github.com/appydave-templates/starter-nextjs-convex-ai/commit/714460719bbd828aed8d144a501451b18fd8c4b8"
-    },
-    {
-      "version": "0.2.4",
-      "commitHash": "fbdb4195efae29b3007d4e34604d0590cdeeb59f",
-      "timestamp": 1754196297,
-      "description": "fix: remove CI=true override blocking environment variables",
-      "commitUrl": "https://github.com/appydave-templates/starter-nextjs-convex-ai/commit/fbdb4195efae29b3007d4e34604d0590cdeeb59f"
     }
   ],
-  "current": "0.6.4",
-  "lastUpdated": 1754664066
+  "current": "0.7.0",
+  "lastUpdated": 1754808262
 }
