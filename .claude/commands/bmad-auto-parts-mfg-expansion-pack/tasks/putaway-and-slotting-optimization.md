@@ -1,0 +1,1 @@
+../../../../.bmad-auto-parts-mfg-expansion-pack/tasks/putaway-and-slotting-optimization.md

@@ -1,0 +1,11 @@
+meta:
+  name: Run@Rate Support
+  version: 1.0.0
+  created_at: "2025-09-20T07:53:44.583167"
+fields:
+  - field: monitor_params
+    type: string
+  - field: thresholds
+    type: string
+  - field: issues
+    type: string

@@ -1,0 +1,23 @@
+meta:
+  name: APQP Plan (Quality)
+  version: 1.0.0
+  created_at: "2025-09-20T06:52:38.073546"
+fields:
+  - field: project_id
+    type: string
+  - field: phase
+    type: enum
+    values:
+      - Plan
+      - Design
+      - Process
+      - Validation
+      - Launch
+  - field: milestone
+    type: string
+  - field: owner
+    type: string
+  - field: due_date
+    type: date
+  - field: evidence
+    type: string

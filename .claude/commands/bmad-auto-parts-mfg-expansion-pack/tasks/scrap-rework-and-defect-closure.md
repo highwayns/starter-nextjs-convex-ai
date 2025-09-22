@@ -1,0 +1,1 @@
+../../../../.bmad-auto-parts-mfg-expansion-pack/tasks/scrap-rework-and-defect-closure.md

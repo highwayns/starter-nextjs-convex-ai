@@ -1,0 +1,1 @@
+../../../../.bmad-auto-parts-mfg-expansion-pack/tasks/coolant-and-chip-management.md

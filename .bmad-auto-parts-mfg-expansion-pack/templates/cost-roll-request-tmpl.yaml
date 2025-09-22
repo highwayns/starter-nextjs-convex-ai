@@ -1,0 +1,11 @@
+meta:
+  name: Cost Roll Request
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.001987"
+fields:
+  - field: items_scope
+    type: string
+  - field: price_update_basis
+    type: string
+  - field: effective_date
+    type: date

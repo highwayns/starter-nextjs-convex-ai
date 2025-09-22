@@ -1,0 +1,13 @@
+meta:
+  name: Forklift Operator Check
+  version: 1.0.0
+  created_at: "2025-09-20T13:12:53.773385"
+fields:
+  - field: operator
+    type: string
+  - field: license_no
+    type: string
+  - field: expiry
+    type: date
+  - field: practical_test
+    type: string

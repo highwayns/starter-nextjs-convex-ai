@@ -1,0 +1,13 @@
+meta:
+  name: SPC Exception Log
+  version: 1.0.0
+  created_at: "2025-09-20T07:29:35.990932"
+fields:
+  - field: timestamp
+    type: datetime
+  - field: characteristic
+    type: string
+  - field: rule_triggered
+    type: string
+  - field: reaction_plan
+    type: string

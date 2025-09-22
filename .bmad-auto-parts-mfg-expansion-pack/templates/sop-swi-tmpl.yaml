@@ -1,0 +1,15 @@
+meta:
+  name: SOP/SWI
+  version: 1.0.0
+  created_at: "2025-09-20T07:45:24.971597"
+fields:
+  - field: station_id
+    type: string
+  - field: key_steps
+    type: string
+  - field: quality_points
+    type: string
+  - field: safety_points
+    type: string
+  - field: photos_or_links
+    type: string

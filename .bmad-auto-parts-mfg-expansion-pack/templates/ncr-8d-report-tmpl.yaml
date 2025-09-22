@@ -1,0 +1,15 @@
+meta:
+  name: NCR & 8D Report
+  version: 1.0.0
+  created_at: "2025-09-20T08:08:33.531100"
+fields:
+  - field: ncr_no
+    type: string
+  - field: description
+    type: string
+  - field: containment
+    type: string
+  - field: root_cause
+    type: string
+  - field: capa
+    type: string

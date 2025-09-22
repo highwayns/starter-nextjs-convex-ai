@@ -1,0 +1,17 @@
+meta:
+  name: NCR Report
+  version: 1.0.0
+  created_at: "2025-09-20T07:35:50.951862"
+fields:
+  - field: ncr_no
+    type: string
+  - field: origin
+    type: string
+  - field: desc
+    type: string
+  - field: lot_no
+    type: string
+  - field: qty
+    type: number
+  - field: disposition
+    type: string

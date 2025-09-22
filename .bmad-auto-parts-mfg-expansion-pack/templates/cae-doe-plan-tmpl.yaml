@@ -1,0 +1,13 @@
+meta:
+  name: CAE/DOE Plan
+  version: 1.0.0
+  created_at: "2025-09-20T07:40:39.282235"
+fields:
+  - field: factors
+    type: string
+  - field: levels
+    type: string
+  - field: responses
+    type: string
+  - field: runs
+    type: number

@@ -1,0 +1,13 @@
+meta:
+  name: Red‑Rabbit Plan
+  version: 1.0.0
+  created_at: "2025-09-20T07:45:24.984374"
+fields:
+  - field: defect_type
+    type: string
+  - field: injection_method
+    type: string
+  - field: expected_reaction
+    type: string
+  - field: result
+    type: string

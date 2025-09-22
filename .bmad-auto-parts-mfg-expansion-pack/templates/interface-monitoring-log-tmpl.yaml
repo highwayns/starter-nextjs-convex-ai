@@ -1,0 +1,13 @@
+meta:
+  name: Interface Monitoring Log
+  version: 1.0.0
+  created_at: "2025-09-20T13:28:29.313635"
+fields:
+  - field: interface
+    type: string
+  - field: status
+    type: string
+  - field: errors
+    type: string
+  - field: timestamp
+    type: datetime

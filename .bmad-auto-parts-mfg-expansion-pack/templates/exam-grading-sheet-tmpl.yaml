@@ -1,0 +1,11 @@
+meta:
+  name: Grading Sheet
+  version: 1.0.0
+  created_at: "2025-09-20T13:12:53.762112"
+fields:
+  - field: candidate
+    type: string
+  - field: score
+    type: number
+  - field: pass
+    type: string

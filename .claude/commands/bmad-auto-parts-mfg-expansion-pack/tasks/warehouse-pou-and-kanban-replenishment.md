@@ -1,0 +1,1 @@
+../../../../.bmad-auto-parts-mfg-expansion-pack/tasks/warehouse-pou-and-kanban-replenishment.md

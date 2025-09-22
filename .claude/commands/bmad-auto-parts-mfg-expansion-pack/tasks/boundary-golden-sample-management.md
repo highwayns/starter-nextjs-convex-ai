@@ -1,0 +1,1 @@
+../../../../.bmad-auto-parts-mfg-expansion-pack/tasks/boundary-golden-sample-management.md

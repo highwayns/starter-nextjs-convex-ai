@@ -1,0 +1,11 @@
+meta:
+  name: Concept + DFM/DFA Review
+  version: 1.0.0
+  created_at: "2025-09-20T07:40:39.279703"
+fields:
+  - field: concepts
+    type: string
+  - field: dfx_findings
+    type: string
+  - field: actions
+    type: string

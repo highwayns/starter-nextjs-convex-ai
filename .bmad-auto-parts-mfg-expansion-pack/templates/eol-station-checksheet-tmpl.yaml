@@ -1,0 +1,18 @@
+meta:
+  name: EOL Station Checksheet
+  version: 1.0.0
+  created_at: "2025-09-20T07:17:32.457945"
+fields:
+  - field: date
+    type: date
+  - field: station
+    type: string
+  - field: fixtures
+    type: string
+  - field: status
+    type: enum
+    values:
+      - OK
+      - NG
+  - field: actions
+    type: string

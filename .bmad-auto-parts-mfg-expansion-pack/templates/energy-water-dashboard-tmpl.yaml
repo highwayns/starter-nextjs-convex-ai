@@ -1,0 +1,15 @@
+meta:
+  name: Energy/Water Dashboard
+  version: 1.0.0
+  created_at: "2025-09-20T12:59:32.148686"
+fields:
+  - field: period
+    type: string
+  - field: electric_kwh
+    type: number
+  - field: gas_nm3
+    type: number
+  - field: water_m3
+    type: number
+  - field: co2e_t
+    type: number

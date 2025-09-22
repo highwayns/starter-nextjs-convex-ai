@@ -1,0 +1,11 @@
+meta:
+  name: Label Standard Map
+  version: 1.0.0
+  created_at: "2025-09-20T08:19:15.654731"
+fields:
+  - field: standard
+    type: string
+  - field: fields
+    type: string
+  - field: asn_mapping
+    type: string

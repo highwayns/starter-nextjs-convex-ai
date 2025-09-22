@@ -1,0 +1,11 @@
+meta:
+  name: Contract Abstract & Clauses
+  version: 1.0.0
+  created_at: "2025-09-20T08:08:33.537813"
+fields:
+  - field: supplier
+    type: string
+  - field: key_clauses
+    type: string
+  - field: expiry
+    type: date

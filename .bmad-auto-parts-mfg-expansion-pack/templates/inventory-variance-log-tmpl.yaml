@@ -1,0 +1,15 @@
+meta:
+  name: Inventory Variance Log
+  version: 1.0.0
+  created_at: "2025-09-20T08:19:15.649046"
+fields:
+  - field: item_code
+    type: string
+  - field: location
+    type: string
+  - field: system_qty
+    type: number
+  - field: count_qty
+    type: number
+  - field: variance
+    type: number

@@ -1,0 +1,15 @@
+meta:
+  name: Coil Setup Record
+  version: 1.0.0
+  created_at: "2025-09-20T07:29:35.989127"
+fields:
+  - field: coil_no
+    type: string
+  - field: material_spec
+    type: string
+  - field: straightener_settings
+    type: string
+  - field: feeder_pitch
+    type: number
+  - field: feeder_speed
+    type: number

@@ -1,0 +1,13 @@
+meta:
+  name: Milk-run Plan
+  version: 1.0.0
+  created_at: "2025-09-20T06:59:35.558874"
+fields:
+  - field: route
+    type: string
+  - field: frequency_min
+    type: number
+  - field: stops
+    type: string
+  - field: loading_standard
+    type: string

@@ -1,0 +1,13 @@
+meta:
+  name: Run@Rate/SOR
+  version: 1.0.0
+  created_at: "2025-09-20T07:45:24.986585"
+fields:
+  - field: rate_target
+    type: number
+  - field: duration_hr
+    type: number
+  - field: scrap_threshold
+    type: number
+  - field: evidence
+    type: string

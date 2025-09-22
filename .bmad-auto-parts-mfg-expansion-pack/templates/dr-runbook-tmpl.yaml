@@ -1,0 +1,11 @@
+meta:
+  name: DR Runbook
+  version: 1.0.0
+  created_at: "2025-09-20T13:28:29.317811"
+fields:
+  - field: system
+    type: string
+  - field: failover_steps
+    type: string
+  - field: cutback_steps
+    type: string

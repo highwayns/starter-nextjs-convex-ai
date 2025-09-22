@@ -1,0 +1,15 @@
+meta:
+  name: Work Order
+  version: 1.0.0
+  created_at: "2025-09-20T08:50:36.342289"
+fields:
+  - field: wo_id
+    type: string
+  - field: asset_id
+    type: string
+  - field: priority
+    type: string
+  - field: sla
+    type: string
+  - field: materials
+    type: string

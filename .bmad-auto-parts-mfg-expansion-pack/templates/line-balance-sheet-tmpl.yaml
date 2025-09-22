@@ -1,0 +1,13 @@
+meta:
+  name: Line Balance Sheet
+  version: 1.0.0
+  created_at: "2025-09-20T07:17:32.459154"
+fields:
+  - field: line_id
+    type: string
+  - field: takt_sec
+    type: number
+  - field: stations
+    type: string
+  - field: yamazumi_notes
+    type: string

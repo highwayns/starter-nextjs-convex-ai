@@ -1,0 +1,1 @@
+../../../../.bmad-auto-parts-mfg-expansion-pack/agents/21-hr-training-coordinator.md

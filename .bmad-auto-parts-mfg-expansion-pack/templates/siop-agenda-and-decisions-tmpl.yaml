@@ -1,0 +1,13 @@
+meta:
+  name: SIOP Agenda & Decisions
+  version: 1.0.0
+  created_at: "2025-09-20T08:02:23.403460"
+fields:
+  - field: period
+    type: string
+  - field: demand_supply_gap
+    type: string
+  - field: decisions
+    type: string
+  - field: owners_due
+    type: string

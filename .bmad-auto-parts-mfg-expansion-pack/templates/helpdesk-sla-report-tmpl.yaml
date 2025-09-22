@@ -1,0 +1,13 @@
+meta:
+  name: Helpdesk SLA Report
+  version: 1.0.0
+  created_at: "2025-09-20T13:28:29.322852"
+fields:
+  - field: period
+    type: string
+  - field: mtta
+    type: number
+  - field: mttr
+    type: number
+  - field: sla_met
+    type: number

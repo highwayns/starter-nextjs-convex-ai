@@ -1,0 +1,13 @@
+meta:
+  name: ASN & Label Consistency
+  version: 1.0.0
+  created_at: "2025-09-20T08:08:33.530279"
+fields:
+  - field: asn_no
+    type: string
+  - field: label_standard
+    type: string
+  - field: fields_check
+    type: string
+  - field: dock_to_stock
+    type: string

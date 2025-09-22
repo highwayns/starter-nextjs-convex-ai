@@ -1,0 +1,13 @@
+meta:
+  name: MOC Record
+  version: 1.0.0
+  created_at: "2025-09-20T12:59:32.162500"
+fields:
+  - field: change_id
+    type: string
+  - field: description
+    type: string
+  - field: risk_review
+    type: string
+  - field: approval
+    type: string

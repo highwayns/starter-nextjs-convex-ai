@@ -1,0 +1,15 @@
+meta:
+  name: Quarantine Labels
+  version: 1.0.0
+  created_at: "2025-09-20T07:35:50.960321"
+fields:
+  - field: zone
+    type: enum
+    values:
+      - RED
+      - YELLOW
+      - GREEN
+  - field: lot_no
+    type: string
+  - field: qty
+    type: number

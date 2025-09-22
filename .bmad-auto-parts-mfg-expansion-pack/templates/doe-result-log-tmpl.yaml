@@ -1,0 +1,13 @@
+meta:
+  name: DOE Result Log
+  version: 1.0.0
+  created_at: "2025-09-20T07:40:39.283094"
+fields:
+  - field: run_id
+    type: string
+  - field: factor_settings
+    type: string
+  - field: responses
+    type: string
+  - field: notes
+    type: string

@@ -1,0 +1,13 @@
+meta:
+  name: LOTO & Permit Register
+  version: 1.0.0
+  created_at: "2025-09-20T08:50:36.352357"
+fields:
+  - field: permit_id
+    type: string
+  - field: type
+    type: string
+  - field: area
+    type: string
+  - field: status
+    type: string

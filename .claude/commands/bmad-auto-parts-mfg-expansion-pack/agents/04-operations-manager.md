@@ -1,0 +1,1 @@
+../../../../.bmad-auto-parts-mfg-expansion-pack/agents/04-operations-manager.md

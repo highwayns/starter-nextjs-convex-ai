@@ -1,0 +1,11 @@
+meta:
+  name: Warehouse Supermarket Map
+  version: 1.0.0
+  created_at: "2025-09-20T07:17:32.469993"
+fields:
+  - field: area
+    type: string
+  - field: location_rules
+    type: string
+  - field: replenishment_triggers
+    type: string

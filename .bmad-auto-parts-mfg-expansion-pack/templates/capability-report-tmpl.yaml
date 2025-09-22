@@ -1,0 +1,15 @@
+meta:
+  name: Capability Report
+  version: 1.0.0
+  created_at: "2025-09-20T07:35:50.955808"
+fields:
+  - field: characteristic
+    type: string
+  - field: cp
+    type: number
+  - field: cpk
+    type: number
+  - field: ppk
+    type: number
+  - field: notes
+    type: string

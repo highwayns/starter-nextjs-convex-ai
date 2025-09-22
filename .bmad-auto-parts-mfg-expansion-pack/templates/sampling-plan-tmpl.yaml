@@ -1,0 +1,17 @@
+meta:
+  name: Sampling Plan
+  version: 1.0.0
+  created_at: "2025-09-20T07:35:50.950127"
+fields:
+  - field: lot_size
+    type: number
+  - field: inspection_level
+    type: string
+  - field: aql
+    type: string
+  - field: sample_size
+    type: number
+  - field: accept
+    type: number
+  - field: reject
+    type: number

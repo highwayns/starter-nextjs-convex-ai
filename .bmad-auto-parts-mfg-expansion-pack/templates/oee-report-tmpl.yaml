@@ -1,0 +1,17 @@
+meta:
+  name: OEE Report
+  version: 1.0.0
+  created_at: "2025-09-20T07:24:07.680019"
+fields:
+  - field: line_id
+    type: string
+  - field: date
+    type: date
+  - field: availability
+    type: number
+  - field: performance
+    type: number
+  - field: quality
+    type: number
+  - field: oee
+    type: number

@@ -1,0 +1,29 @@
+meta:
+  name: Prestart Checksheet
+  version: 1.0.0
+  created_at: "2025-09-20T07:29:35.987063"
+fields:
+  - field: machine_id
+    type: string
+  - field: guards_ok
+    type: enum
+    values:
+      - "Yes"
+      - "No"
+  - field: light_curtain_ok
+    type: enum
+    values:
+      - "Yes"
+      - "No"
+  - field: two_hand_ok
+    type: enum
+    values:
+      - "Yes"
+      - "No"
+  - field: sensors_selftest_ok
+    type: enum
+    values:
+      - "Yes"
+      - "No"
+  - field: notes
+    type: string

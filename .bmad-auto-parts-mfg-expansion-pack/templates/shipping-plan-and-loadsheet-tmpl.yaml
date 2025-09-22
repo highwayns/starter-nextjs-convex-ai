@@ -1,0 +1,13 @@
+meta:
+  name: Shipping Plan & Loadsheet
+  version: 1.0.0
+  created_at: "2025-09-20T08:13:19.903704"
+fields:
+  - field: shipment_id
+    type: string
+  - field: doors
+    type: string
+  - field: pallets
+    type: number
+  - field: weight_kg
+    type: number

@@ -1,0 +1,11 @@
+meta:
+  name: Yard & Trailer Plan
+  version: 1.0.0
+  created_at: "2025-09-20T08:13:19.935969"
+fields:
+  - field: yard_rules
+    type: string
+  - field: spotting_plan
+    type: string
+  - field: trailer_pool
+    type: string

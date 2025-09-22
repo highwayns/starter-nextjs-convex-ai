@@ -1,0 +1,1 @@
+../../../../.bmad-auto-parts-mfg-expansion-pack/tasks/coil-decoiler-straightener-feeder-setup.md

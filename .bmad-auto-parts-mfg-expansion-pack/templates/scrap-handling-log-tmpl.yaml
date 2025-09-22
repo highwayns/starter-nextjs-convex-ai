@@ -1,0 +1,13 @@
+meta:
+  name: Scrap Handling Log
+  version: 1.0.0
+  created_at: "2025-09-20T07:29:35.993125"
+fields:
+  - field: bin_id
+    type: string
+  - field: material
+    type: string
+  - field: weight_kg
+    type: number
+  - field: exchange_time
+    type: datetime

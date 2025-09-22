@@ -1,0 +1,15 @@
+meta:
+  name: Kaizen A3
+  version: 1.0.0
+  created_at: "2025-09-20T12:59:32.167155"
+fields:
+  - field: theme
+    type: string
+  - field: current_state
+    type: string
+  - field: root_cause
+    type: string
+  - field: countermeasures
+    type: string
+  - field: results
+    type: string

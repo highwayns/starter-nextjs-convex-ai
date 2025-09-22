@@ -1,0 +1,11 @@
+meta:
+  name: Jig/Fixture Spec
+  version: 1.0.0
+  created_at: "2025-09-20T07:40:39.284773"
+fields:
+  - field: datum_scheme
+    type: string
+  - field: repeatability
+    type: string
+  - field: safety
+    type: string

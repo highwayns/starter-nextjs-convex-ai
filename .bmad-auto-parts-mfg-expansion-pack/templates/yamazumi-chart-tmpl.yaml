@@ -1,0 +1,13 @@
+meta:
+  name: Yamazumi Chart
+  version: 1.0.0
+  created_at: "2025-09-20T07:45:24.970156"
+fields:
+  - field: line_id
+    type: string
+  - field: tasks
+    type: string
+  - field: takt_sec
+    type: number
+  - field: rebalance_actions
+    type: string

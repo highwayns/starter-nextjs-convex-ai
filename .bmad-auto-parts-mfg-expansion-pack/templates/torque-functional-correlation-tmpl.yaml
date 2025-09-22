@@ -1,0 +1,13 @@
+meta:
+  name: Torque/Functional Correlation
+  version: 1.0.0
+  created_at: "2025-09-20T07:35:50.964555"
+fields:
+  - field: part_no
+    type: string
+  - field: size_characteristics
+    type: string
+  - field: functional_results
+    type: string
+  - field: correlation_summary
+    type: string

@@ -1,0 +1,13 @@
+meta:
+  name: Contractor Induction Record
+  version: 1.0.0
+  created_at: "2025-09-20T13:12:53.766190"
+fields:
+  - field: company
+    type: string
+  - field: crew
+    type: string
+  - field: topics
+    type: string
+  - field: signatures
+    type: string

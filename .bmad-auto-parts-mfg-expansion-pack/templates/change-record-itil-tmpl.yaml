@@ -1,0 +1,13 @@
+meta:
+  name: Change Record (ITIL)
+  version: 1.0.0
+  created_at: "2025-09-20T13:28:29.354860"
+fields:
+  - field: rfc
+    type: string
+  - field: risk
+    type: string
+  - field: backout
+    type: string
+  - field: post_review
+    type: string

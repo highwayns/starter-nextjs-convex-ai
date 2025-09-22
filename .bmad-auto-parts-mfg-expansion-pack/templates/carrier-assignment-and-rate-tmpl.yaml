@@ -1,0 +1,13 @@
+meta:
+  name: Carrier Assignment & Rate
+  version: 1.0.0
+  created_at: "2025-09-20T08:13:19.929483"
+fields:
+  - field: carrier
+    type: string
+  - field: lane
+    type: string
+  - field: rate
+    type: number
+  - field: service_level
+    type: string

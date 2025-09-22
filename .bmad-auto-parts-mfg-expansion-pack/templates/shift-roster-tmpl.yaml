@@ -1,0 +1,13 @@
+meta:
+  name: Shift Roster
+  version: 1.0.0
+  created_at: "2025-09-20T07:17:32.466724"
+fields:
+  - field: date
+    type: date
+  - field: shift
+    type: string
+  - field: line_id
+    type: string
+  - field: headcount
+    type: number

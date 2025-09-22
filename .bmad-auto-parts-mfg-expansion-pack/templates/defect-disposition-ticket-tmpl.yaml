@@ -1,0 +1,13 @@
+meta:
+  name: Defect Disposition Ticket
+  version: 1.0.0
+  created_at: "2025-09-20T07:35:50.959711"
+fields:
+  - field: ncr_no
+    type: string
+  - field: disposition
+    type: string
+  - field: rework_route
+    type: string
+  - field: verification
+    type: string

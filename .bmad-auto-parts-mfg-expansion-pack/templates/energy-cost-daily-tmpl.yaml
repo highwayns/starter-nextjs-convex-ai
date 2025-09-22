@@ -1,0 +1,15 @@
+meta:
+  name: Energy & Cost Daily
+  version: 1.0.0
+  created_at: "2025-09-20T07:12:11.257037"
+fields:
+  - field: date
+    type: date
+  - field: area
+    type: string
+  - field: kwh
+    type: number
+  - field: scrap_cost
+    type: number
+  - field: notes
+    type: string

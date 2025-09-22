@@ -1,0 +1,16 @@
+meta:
+  name: Daily PM Checksheet
+  version: 1.0.0
+  created_at: "2025-09-20T07:17:32.467742"
+fields:
+  - field: asset_id
+    type: string
+  - field: checks
+    type: string
+  - field: status
+    type: enum
+    values:
+      - OK
+      - NG
+  - field: actions
+    type: string

@@ -1,0 +1,15 @@
+meta:
+  name: MSA GRR Plan
+  version: 1.0.0
+  created_at: "2025-09-20T07:35:50.956698"
+fields:
+  - field: gauge_id
+    type: string
+  - field: appraisers
+    type: string
+  - field: parts
+    type: number
+  - field: trials
+    type: number
+  - field: method
+    type: string

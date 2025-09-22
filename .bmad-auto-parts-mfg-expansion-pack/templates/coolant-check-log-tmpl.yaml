@@ -1,0 +1,15 @@
+meta:
+  name: Coolant Check Log
+  version: 1.0.0
+  created_at: "2025-09-20T07:24:07.680882"
+fields:
+  - field: machine_id
+    type: string
+  - field: concentration_pct
+    type: number
+  - field: ph
+    type: number
+  - field: bacteria
+    type: string
+  - field: action
+    type: string

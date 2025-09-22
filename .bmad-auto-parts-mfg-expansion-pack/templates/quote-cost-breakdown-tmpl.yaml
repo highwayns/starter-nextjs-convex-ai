@@ -1,0 +1,17 @@
+meta:
+  name: Quote Cost Breakdown
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.012389"
+fields:
+  - field: rfq
+    type: string
+  - field: material
+    type: number
+  - field: process
+    type: number
+  - field: tooling
+    type: number
+  - field: logistics
+    type: number
+  - field: duty_tax
+    type: number

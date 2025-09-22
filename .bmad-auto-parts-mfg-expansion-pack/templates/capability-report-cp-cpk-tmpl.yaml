@@ -1,0 +1,17 @@
+meta:
+  name: Capability Report (Cp/Cpk)
+  version: 1.0.0
+  created_at: "2025-09-20T06:52:38.077578"
+fields:
+  - field: characteristic
+    type: string
+  - field: usl
+    type: number
+  - field: lsl
+    type: number
+  - field: cp
+    type: number
+  - field: cpk
+    type: number
+  - field: ppk
+    type: number

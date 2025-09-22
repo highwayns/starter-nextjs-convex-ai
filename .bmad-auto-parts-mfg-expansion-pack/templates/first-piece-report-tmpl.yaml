@@ -1,0 +1,22 @@
+meta:
+  name: First Piece Report
+  version: 1.0.0
+  created_at: "2025-09-20T07:29:35.989856"
+fields:
+  - field: part_no
+    type: string
+  - field: rev
+    type: string
+  - field: dimensions_check
+    type: string
+  - field: burr_height_mm
+    type: number
+  - field: flatness
+    type: string
+  - field: surface_defects
+    type: string
+  - field: release
+    type: enum
+    values:
+      - Pass
+      - Fail

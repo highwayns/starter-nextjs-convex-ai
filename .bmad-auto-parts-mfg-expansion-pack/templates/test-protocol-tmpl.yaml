@@ -1,0 +1,13 @@
+meta:
+  name: Test Protocol
+  version: 1.0.0
+  created_at: "2025-09-20T07:53:44.569537"
+fields:
+  - field: protocol_id
+    type: string
+  - field: steps
+    type: string
+  - field: safety
+    type: string
+  - field: acceptance
+    type: string

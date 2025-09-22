@@ -1,0 +1,15 @@
+meta:
+  name: DR Drill Report
+  version: 1.0.0
+  created_at: "2025-09-20T13:28:29.318780"
+fields:
+  - field: date
+    type: date
+  - field: systems
+    type: string
+  - field: rpo
+    type: string
+  - field: rto
+    type: string
+  - field: lessons
+    type: string

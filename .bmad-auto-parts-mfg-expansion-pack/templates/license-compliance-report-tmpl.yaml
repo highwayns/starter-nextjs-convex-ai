@@ -1,0 +1,13 @@
+meta:
+  name: License Compliance Report
+  version: 1.0.0
+  created_at: "2025-09-20T13:28:29.349901"
+fields:
+  - field: product
+    type: string
+  - field: seats
+    type: number
+  - field: in_use
+    type: number
+  - field: expiry
+    type: date

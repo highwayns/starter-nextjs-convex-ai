@@ -1,0 +1,1 @@
+../../../../.bmad-auto-parts-mfg-expansion-pack/agents/16-warehouse-logistics-manager.md

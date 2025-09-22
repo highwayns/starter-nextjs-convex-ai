@@ -1,0 +1,11 @@
+meta:
+  name: Supermarket/Kanban
+  version: 1.0.0
+  created_at: "2025-09-20T08:02:23.430434"
+fields:
+  - field: supermarket
+    type: string
+  - field: kanban_rules
+    type: string
+  - field: replenishment
+    type: string

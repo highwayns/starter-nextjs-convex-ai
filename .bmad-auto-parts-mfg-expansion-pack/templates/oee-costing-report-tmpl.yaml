@@ -1,0 +1,13 @@
+meta:
+  name: OEE Costing Report
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.014859"
+fields:
+  - field: line
+    type: string
+  - field: availability_loss_cost
+    type: number
+  - field: performance_loss_cost
+    type: number
+  - field: quality_loss_cost
+    type: number

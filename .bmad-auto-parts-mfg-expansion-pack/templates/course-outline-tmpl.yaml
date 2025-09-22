@@ -1,0 +1,13 @@
+meta:
+  name: Course Outline
+  version: 1.0.0
+  created_at: "2025-09-20T13:12:53.753272"
+fields:
+  - field: title
+    type: string
+  - field: objectives
+    type: string
+  - field: methods
+    type: string
+  - field: materials
+    type: string

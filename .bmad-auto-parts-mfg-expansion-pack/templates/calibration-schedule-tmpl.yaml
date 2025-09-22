@@ -1,0 +1,11 @@
+meta:
+  name: Calibration Schedule
+  version: 1.0.0
+  created_at: "2025-09-20T08:50:36.347789"
+fields:
+  - field: gauge_id
+    type: string
+  - field: cycle
+    type: string
+  - field: due_date
+    type: date

@@ -1,0 +1,13 @@
+meta:
+  name: Laser/Geometry Calibration
+  version: 1.0.0
+  created_at: "2025-09-20T07:24:07.683636"
+fields:
+  - field: asset_id
+    type: string
+  - field: test_type
+    type: string
+  - field: result
+    type: string
+  - field: compensation
+    type: string

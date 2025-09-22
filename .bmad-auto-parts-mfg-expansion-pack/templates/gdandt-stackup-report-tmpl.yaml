@@ -1,0 +1,17 @@
+meta:
+  name: GD&T + Stackup Report
+  version: 1.0.0
+  created_at: "2025-09-20T07:40:39.280487"
+fields:
+  - field: interfaces
+    type: string
+  - field: gdandt_scheme
+    type: string
+  - field: stackup_method
+    type: enum
+    values:
+      - Worst-Case
+      - RSS
+      - Monte Carlo
+  - field: risks
+    type: string

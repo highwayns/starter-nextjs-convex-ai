@@ -1,0 +1,15 @@
+meta:
+  name: Training KPI Dashboard
+  version: 1.0.0
+  created_at: "2025-09-20T13:12:53.769449"
+fields:
+  - field: period
+    type: string
+  - field: completion_rate
+    type: number
+  - field: overdue_licenses
+    type: number
+  - field: coverage_dual
+    type: number
+  - field: roi
+    type: number

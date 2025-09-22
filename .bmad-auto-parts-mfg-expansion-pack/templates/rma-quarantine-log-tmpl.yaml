@@ -1,0 +1,11 @@
+meta:
+  name: RMA & Quarantine Log
+  version: 1.0.0
+  created_at: "2025-09-20T08:13:19.935291"
+fields:
+  - field: rma_no
+    type: string
+  - field: reason
+    type: string
+  - field: disposition
+    type: string

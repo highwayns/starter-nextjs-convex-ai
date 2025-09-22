@@ -1,0 +1,11 @@
+meta:
+  name: ABC Costing Model
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.050310"
+fields:
+  - field: activity
+    type: string
+  - field: driver
+    type: string
+  - field: rate
+    type: number

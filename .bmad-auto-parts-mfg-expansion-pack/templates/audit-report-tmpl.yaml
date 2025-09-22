@@ -1,0 +1,13 @@
+meta:
+  name: Audit Report
+  version: 1.0.0
+  created_at: "2025-09-20T12:59:32.161275"
+fields:
+  - field: audit_id
+    type: string
+  - field: scope
+    type: string
+  - field: nonconformities
+    type: string
+  - field: capa
+    type: string

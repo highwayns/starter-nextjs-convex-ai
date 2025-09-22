@@ -1,0 +1,1 @@
+../../../../.bmad-auto-parts-mfg-expansion-pack/tasks/warehouse-supermarket-and-pou-replenishment.md

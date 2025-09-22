@@ -1,0 +1,13 @@
+meta:
+  name: ECN/PPAP Readiness
+  version: 1.0.0
+  created_at: "2025-09-20T07:35:50.961830"
+fields:
+  - field: change_id
+    type: string
+  - field: docs_updated
+    type: string
+  - field: gauge_ready
+    type: string
+  - field: sample_status
+    type: string

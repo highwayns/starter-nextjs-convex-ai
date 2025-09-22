@@ -1,0 +1,1 @@
+../../../../.bmad-auto-parts-mfg-expansion-pack/tasks/erp-mes-admin-and-interface-monitoring.md

@@ -1,0 +1,13 @@
+meta:
+  name: Tool Master Register
+  version: 1.0.0
+  created_at: "2025-09-20T07:24:07.675858"
+fields:
+  - field: tool_id
+    type: string
+  - field: type
+    type: string
+  - field: preset_length
+    type: number
+  - field: preset_diam
+    type: number

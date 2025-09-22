@@ -1,0 +1,13 @@
+meta:
+  name: Three-Way Match Log
+  version: 1.0.0
+  created_at: "2025-09-20T08:08:33.532552"
+fields:
+  - field: invoice_no
+    type: string
+  - field: po_no
+    type: string
+  - field: receipt_no
+    type: string
+  - field: variance
+    type: string

@@ -1,0 +1,15 @@
+meta:
+  name: PO Form
+  version: 1.0.0
+  created_at: "2025-09-20T08:08:33.500442"
+fields:
+  - field: po_no
+    type: string
+  - field: supplier
+    type: string
+  - field: items
+    type: string
+  - field: incoterms
+    type: string
+  - field: payment_terms
+    type: string

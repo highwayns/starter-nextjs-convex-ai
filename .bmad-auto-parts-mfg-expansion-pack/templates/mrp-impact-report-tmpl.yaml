@@ -1,0 +1,13 @@
+meta:
+  name: MRP Impact Report
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.011269"
+fields:
+  - field: period
+    type: string
+  - field: cash_peak
+    type: number
+  - field: inventory_change
+    type: number
+  - field: commitments
+    type: number

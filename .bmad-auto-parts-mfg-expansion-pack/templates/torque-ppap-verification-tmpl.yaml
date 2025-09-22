@@ -1,0 +1,13 @@
+meta:
+  name: Torque PPAP Verification
+  version: 1.0.0
+  created_at: "2025-09-20T07:17:32.456120"
+fields:
+  - field: program_id
+    type: string
+  - field: samples
+    type: number
+  - field: ppap_level
+    type: number
+  - field: result
+    type: string

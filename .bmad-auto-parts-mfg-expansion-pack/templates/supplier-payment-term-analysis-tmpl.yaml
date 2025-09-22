@@ -1,0 +1,11 @@
+meta:
+  name: Supplier Payment Term Analysis
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.059184"
+fields:
+  - field: supplier
+    type: string
+  - field: term_days
+    type: number
+  - field: spend
+    type: number

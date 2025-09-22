@@ -1,0 +1,15 @@
+meta:
+  name: Control Plan
+  version: 1.0.0
+  created_at: "2025-09-20T07:45:24.981124"
+fields:
+  - field: process_step
+    type: string
+  - field: characteristic
+    type: string
+  - field: method
+    type: string
+  - field: freq
+    type: string
+  - field: reaction_plan
+    type: string

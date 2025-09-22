@@ -1,0 +1,11 @@
+meta:
+  name: CMDB Attribute Model
+  version: 1.0.0
+  created_at: "2025-09-20T13:28:29.325147"
+fields:
+  - field: ci_type
+    type: string
+  - field: attributes
+    type: string
+  - field: relationships
+    type: string

@@ -1,0 +1,15 @@
+meta:
+  name: Certificate of Conformance
+  version: 1.0.0
+  created_at: "2025-09-20T07:35:50.954393"
+fields:
+  - field: customer
+    type: string
+  - field: po
+    type: string
+  - field: part_no
+    type: string
+  - field: lot_no
+    type: string
+  - field: statement
+    type: string

@@ -1,0 +1,11 @@
+meta:
+  name: Traceability Export Kit
+  version: 1.0.0
+  created_at: "2025-09-20T08:19:15.653653"
+fields:
+  - field: scope
+    type: string
+  - field: from_to
+    type: string
+  - field: evidence
+    type: string

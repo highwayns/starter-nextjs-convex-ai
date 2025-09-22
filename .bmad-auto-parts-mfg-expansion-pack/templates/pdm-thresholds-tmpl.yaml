@@ -1,0 +1,13 @@
+meta:
+  name: PDM Thresholds
+  version: 1.0.0
+  created_at: "2025-09-20T07:24:07.682987"
+fields:
+  - field: asset_id
+    type: string
+  - field: sensor
+    type: string
+  - field: threshold
+    type: number
+  - field: action
+    type: string

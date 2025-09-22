@@ -1,0 +1,13 @@
+meta:
+  name: Forklift Daily Check
+  version: 1.0.0
+  created_at: "2025-09-20T08:13:19.932704"
+fields:
+  - field: forklift_id
+    type: string
+  - field: checks
+    type: string
+  - field: status
+    type: string
+  - field: inspector
+    type: string

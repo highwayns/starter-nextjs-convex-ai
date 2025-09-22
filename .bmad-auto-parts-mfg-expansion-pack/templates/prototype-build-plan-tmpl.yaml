@@ -1,0 +1,13 @@
+meta:
+  name: Prototype Build Plan
+  version: 1.0.0
+  created_at: "2025-09-20T07:40:39.283945"
+fields:
+  - field: bom_version
+    type: string
+  - field: operations
+    type: string
+  - field: schedule
+    type: string
+  - field: acceptance
+    type: string

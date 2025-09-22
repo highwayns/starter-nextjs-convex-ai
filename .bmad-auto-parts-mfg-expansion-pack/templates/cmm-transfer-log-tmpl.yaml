@@ -1,0 +1,13 @@
+meta:
+  name: CMM Transfer Log
+  version: 1.0.0
+  created_at: "2025-09-20T07:24:07.679133"
+fields:
+  - field: lot
+    type: string
+  - field: cmm_program
+    type: string
+  - field: diff_vs_machine
+    type: string
+  - field: disposition
+    type: string

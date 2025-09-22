@@ -1,0 +1,1 @@
+../../../../.bmad-auto-parts-mfg-expansion-pack/agents/17-inventory-control-specialist.md

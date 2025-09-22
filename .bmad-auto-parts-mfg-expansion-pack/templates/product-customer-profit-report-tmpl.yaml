@@ -1,0 +1,13 @@
+meta:
+  name: Product/Customer Profitability
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.018720"
+fields:
+  - field: entity
+    type: string
+  - field: revenue
+    type: number
+  - field: var_cost
+    type: number
+  - field: contribution
+    type: number

@@ -1,0 +1,13 @@
+meta:
+  name: Network Segmentation Design
+  version: 1.0.0
+  created_at: "2025-09-20T13:28:29.305123"
+fields:
+  - field: zones
+    type: string
+  - field: vlans
+    type: string
+  - field: acl
+    type: string
+  - field: microseg
+    type: string

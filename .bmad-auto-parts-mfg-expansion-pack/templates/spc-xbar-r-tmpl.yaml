@@ -1,0 +1,13 @@
+meta:
+  name: SPC Xbar-R
+  version: 1.0.0
+  created_at: "2025-09-20T07:35:50.955085"
+fields:
+  - field: characteristic
+    type: string
+  - field: subgroup_size
+    type: number
+  - field: values
+    type: string
+  - field: rules_triggered
+    type: string

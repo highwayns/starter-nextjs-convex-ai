@@ -1,0 +1,13 @@
+meta:
+  name: Probing Plan & Results
+  version: 1.0.0
+  created_at: "2025-09-20T07:24:07.674329"
+fields:
+  - field: machine_id
+    type: string
+  - field: features
+    type: string
+  - field: offsets
+    type: string
+  - field: results
+    type: string

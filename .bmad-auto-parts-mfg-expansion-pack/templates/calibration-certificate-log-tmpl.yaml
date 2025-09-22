@@ -1,0 +1,13 @@
+meta:
+  name: Calibration Certificate Log
+  version: 1.0.0
+  created_at: "2025-09-20T08:50:36.349052"
+fields:
+  - field: gauge_id
+    type: string
+  - field: certificate_no
+    type: string
+  - field: result
+    type: string
+  - field: expiry
+    type: date

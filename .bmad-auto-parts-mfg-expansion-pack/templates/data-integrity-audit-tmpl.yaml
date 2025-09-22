@@ -1,0 +1,13 @@
+meta:
+  name: Data Integrity Audit
+  version: 1.0.0
+  created_at: "2025-09-20T07:53:44.580233"
+fields:
+  - field: item
+    type: string
+  - field: alcoa
+    type: string
+  - field: finding
+    type: string
+  - field: capa
+    type: string

@@ -1,0 +1,13 @@
+meta:
+  name: Ergonomics Assessment
+  version: 1.0.0
+  created_at: "2025-09-20T12:59:32.155846"
+fields:
+  - field: workstation
+    type: string
+  - field: tool
+    type: string
+  - field: score
+    type: number
+  - field: recommendations
+    type: string

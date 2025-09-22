@@ -1,0 +1,17 @@
+meta:
+  name: Assembly First Article
+  version: 1.0.0
+  created_at: "2025-09-20T07:17:32.453987"
+fields:
+  - field: part_no
+    type: string
+  - field: rev
+    type: string
+  - field: torque_points
+    type: string
+  - field: visual_checks
+    type: string
+  - field: eol_checks
+    type: string
+  - field: result
+    type: string

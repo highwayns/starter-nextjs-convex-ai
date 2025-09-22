@@ -1,0 +1,19 @@
+meta:
+  name: SIOP Balance Deck
+  version: 1.0.0
+  created_at: "2025-09-20T07:06:18.935780"
+fields:
+  - field: scenario
+    type: enum
+    values:
+      - Base
+      - Best
+      - Worst
+  - field: demand_units
+    type: number
+  - field: capacity_hours
+    type: number
+  - field: constraints
+    type: string
+  - field: actions
+    type: string

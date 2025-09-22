@@ -1,0 +1,13 @@
+meta:
+  name: RFx Plan
+  version: 1.0.0
+  created_at: "2025-09-20T08:08:33.497334"
+fields:
+  - field: scope
+    type: string
+  - field: timeline
+    type: string
+  - field: rfi_rfq_rfp
+    type: string
+  - field: owners
+    type: string

@@ -1,0 +1,11 @@
+meta:
+  name: Privacy Data Map
+  version: 1.0.0
+  created_at: "2025-09-20T13:28:29.351377"
+fields:
+  - field: system
+    type: string
+  - field: data_categories
+    type: string
+  - field: location
+    type: string

@@ -1,0 +1,13 @@
+meta:
+  name: PdM Rules
+  version: 1.0.0
+  created_at: "2025-09-20T08:50:36.341188"
+fields:
+  - field: asset_id
+    type: string
+  - field: sensor_type
+    type: string
+  - field: sampling
+    type: string
+  - field: thresholds
+    type: string

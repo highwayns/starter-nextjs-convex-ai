@@ -1,0 +1,13 @@
+meta:
+  name: Putaway Task
+  version: 1.0.0
+  created_at: "2025-09-20T08:19:15.644921"
+fields:
+  - field: task_id
+    type: string
+  - field: item_code
+    type: string
+  - field: from_loc
+    type: string
+  - field: to_loc
+    type: string

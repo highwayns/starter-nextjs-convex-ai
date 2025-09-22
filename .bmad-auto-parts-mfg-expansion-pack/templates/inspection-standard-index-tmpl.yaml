@@ -1,0 +1,17 @@
+meta:
+  name: Inspection Standard Index
+  version: 1.0.0
+  created_at: "2025-09-20T07:35:50.949127"
+fields:
+  - field: part_no
+    type: string
+  - field: rev
+    type: string
+  - field: features
+    type: string
+  - field: methods
+    type: string
+  - field: freq
+    type: string
+  - field: acceptance
+    type: string

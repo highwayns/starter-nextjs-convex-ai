@@ -1,0 +1,13 @@
+meta:
+  name: Layout Plan
+  version: 1.0.0
+  created_at: "2025-09-20T07:45:24.970959"
+fields:
+  - field: area
+    type: string
+  - field: cell_type
+    type: string
+  - field: supermarket
+    type: string
+  - field: material_flow
+    type: string

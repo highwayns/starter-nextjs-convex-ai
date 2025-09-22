@@ -1,0 +1,15 @@
+meta:
+  name: Skill Matrix
+  version: 1.0.0
+  created_at: "2025-09-20T13:12:53.725231"
+fields:
+  - field: employee
+    type: string
+  - field: role
+    type: string
+  - field: skill
+    type: string
+  - field: level
+    type: string
+  - field: expiry
+    type: date

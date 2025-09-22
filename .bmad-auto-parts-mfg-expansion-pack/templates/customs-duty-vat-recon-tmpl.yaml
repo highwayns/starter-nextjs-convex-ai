@@ -1,0 +1,13 @@
+meta:
+  name: Customs/Duty/VAT Reconciliation
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.056964"
+fields:
+  - field: period
+    type: string
+  - field: duties
+    type: number
+  - field: vat_input
+    type: number
+  - field: vat_output
+    type: number

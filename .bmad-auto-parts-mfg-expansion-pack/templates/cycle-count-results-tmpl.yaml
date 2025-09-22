@@ -1,0 +1,11 @@
+meta:
+  name: Cycle Count Results
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.009956"
+fields:
+  - field: area
+    type: string
+  - field: accuracy
+    type: number
+  - field: variance
+    type: number

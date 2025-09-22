@@ -1,0 +1,13 @@
+meta:
+  name: Cost & Cash Report
+  version: 1.0.0
+  created_at: "2025-09-20T08:02:23.435267"
+fields:
+  - field: inventory_turns
+    type: number
+  - field: ppv
+    type: number
+  - field: dpo
+    type: number
+  - field: cash_cycle
+    type: number

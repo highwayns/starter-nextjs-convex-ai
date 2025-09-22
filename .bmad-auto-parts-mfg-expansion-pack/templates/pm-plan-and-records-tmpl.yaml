@@ -1,0 +1,13 @@
+meta:
+  name: PM Plan & Records
+  version: 1.0.0
+  created_at: "2025-09-20T07:24:07.682384"
+fields:
+  - field: asset_id
+    type: string
+  - field: task
+    type: string
+  - field: frequency
+    type: string
+  - field: status
+    type: string

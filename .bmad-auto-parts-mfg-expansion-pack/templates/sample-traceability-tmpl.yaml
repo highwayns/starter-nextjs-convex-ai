@@ -1,0 +1,13 @@
+meta:
+  name: Sample Traceability
+  version: 1.0.0
+  created_at: "2025-09-20T07:53:44.579377"
+fields:
+  - field: sample_id
+    type: string
+  - field: bom_version
+    type: string
+  - field: design_rev
+    type: string
+  - field: serial_or_lot
+    type: string

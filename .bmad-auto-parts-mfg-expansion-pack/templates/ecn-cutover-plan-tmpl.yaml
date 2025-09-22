@@ -1,0 +1,13 @@
+meta:
+  name: ECN Cutover Plan
+  version: 1.0.0
+  created_at: "2025-09-20T07:06:18.956936"
+fields:
+  - field: change_id
+    type: string
+  - field: cutover_point
+    type: string
+  - field: old_new_balance
+    type: string
+  - field: rollback_plan
+    type: string

@@ -1,0 +1,13 @@
+meta:
+  name: Calendar & Capacity
+  version: 1.0.0
+  created_at: "2025-09-20T07:06:18.958532"
+fields:
+  - field: date
+    type: date
+  - field: shift_hours
+    type: number
+  - field: downtime_hr
+    type: number
+  - field: notes
+    type: string

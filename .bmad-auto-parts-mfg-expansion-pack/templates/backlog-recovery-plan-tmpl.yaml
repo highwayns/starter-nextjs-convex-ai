@@ -1,0 +1,13 @@
+meta:
+  name: Backlog Recovery Plan
+  version: 1.0.0
+  created_at: "2025-09-20T07:06:18.951061"
+fields:
+  - field: period
+    type: string
+  - field: target_otif
+    type: number
+  - field: recovery_gantt
+    type: string
+  - field: owners
+    type: string

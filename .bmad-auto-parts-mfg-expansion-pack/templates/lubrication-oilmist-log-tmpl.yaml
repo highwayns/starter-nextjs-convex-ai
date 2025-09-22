@@ -1,0 +1,13 @@
+meta:
+  name: Lubrication & Oil Mist
+  version: 1.0.0
+  created_at: "2025-09-20T07:29:35.993787"
+fields:
+  - field: press_id
+    type: string
+  - field: lube_flow
+    type: number
+  - field: nozzle_status
+    type: string
+  - field: leak_action
+    type: string

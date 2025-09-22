@@ -1,0 +1,13 @@
+meta:
+  name: Secondary Container Label
+  version: 1.0.0
+  created_at: "2025-09-20T12:59:32.126574"
+fields:
+  - field: chem_name
+    type: string
+  - field: hazard_pictograms
+    type: string
+  - field: ppe
+    type: string
+  - field: first_aid
+    type: string

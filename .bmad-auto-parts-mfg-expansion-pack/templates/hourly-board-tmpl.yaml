@@ -1,0 +1,13 @@
+meta:
+  name: Hourly Board
+  version: 1.0.0
+  created_at: "2025-09-20T07:29:35.992473"
+fields:
+  - field: hour
+    type: string
+  - field: target_qty
+    type: number
+  - field: actual_qty
+    type: number
+  - field: gap_reason
+    type: string

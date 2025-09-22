@@ -1,0 +1,17 @@
+meta:
+  name: KPI Dashboard
+  version: 1.0.0
+  created_at: "2025-09-20T08:50:36.374043"
+fields:
+  - field: period
+    type: string
+  - field: oee
+    type: number
+  - field: mtbf
+    type: number
+  - field: mttr
+    type: number
+  - field: critical_spares_fill_rate
+    type: number
+  - field: energy_intensity
+    type: number

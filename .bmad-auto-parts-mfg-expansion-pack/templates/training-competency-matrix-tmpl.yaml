@@ -1,0 +1,13 @@
+meta:
+  name: Training & Competency Matrix
+  version: 1.0.0
+  created_at: "2025-09-20T12:59:32.158576"
+fields:
+  - field: role
+    type: string
+  - field: required_courses
+    type: string
+  - field: status
+    type: string
+  - field: expiry
+    type: date

@@ -1,0 +1,11 @@
+meta:
+  name: Milk-Run Route Plan
+  version: 1.0.0
+  created_at: "2025-09-20T08:13:19.930254"
+fields:
+  - field: route_id
+    type: string
+  - field: stops
+    type: string
+  - field: time_windows
+    type: string

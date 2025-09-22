@@ -1,0 +1,13 @@
+meta:
+  name: LPA Checksheet
+  version: 1.0.0
+  created_at: "2025-09-20T07:45:24.987831"
+fields:
+  - field: area
+    type: string
+  - field: checkpoint
+    type: string
+  - field: status
+    type: string
+  - field: evidence
+    type: string

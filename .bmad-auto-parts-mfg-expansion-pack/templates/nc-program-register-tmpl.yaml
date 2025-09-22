@@ -1,0 +1,13 @@
+meta:
+  name: NC Program Register
+  version: 1.0.0
+  created_at: "2025-09-20T07:24:07.671979"
+fields:
+  - field: machine_id
+    type: string
+  - field: program_id
+    type: string
+  - field: revision
+    type: string
+  - field: owner
+    type: string

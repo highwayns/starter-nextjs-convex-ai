@@ -1,0 +1,15 @@
+meta:
+  name: PFEP
+  version: 1.0.0
+  created_at: "2025-09-20T07:06:18.954652"
+fields:
+  - field: item_code
+    type: string
+  - field: packaging
+    type: string
+  - field: location
+    type: string
+  - field: replenishment_trigger
+    type: string
+  - field: route
+    type: string

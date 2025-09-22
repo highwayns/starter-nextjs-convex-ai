@@ -1,0 +1,13 @@
+meta:
+  name: Tooling Setup Checksheet
+  version: 1.0.0
+  created_at: "2025-09-20T07:12:11.247937"
+fields:
+  - field: tool_id
+    type: string
+  - field: locate_clamp
+    type: string
+  - field: tryout_params
+    type: string
+  - field: approval
+    type: string

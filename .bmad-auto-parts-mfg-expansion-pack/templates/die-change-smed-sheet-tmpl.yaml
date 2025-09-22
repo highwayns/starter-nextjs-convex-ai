@@ -1,0 +1,17 @@
+meta:
+  name: Die Change SMED
+  version: 1.0.0
+  created_at: "2025-09-20T07:29:35.988189"
+fields:
+  - field: press_id
+    type: string
+  - field: die_no
+    type: string
+  - field: setup_time_min
+    type: number
+  - field: clamping
+    type: string
+  - field: bottom_dead_center
+    type: string
+  - field: trial_notes
+    type: string

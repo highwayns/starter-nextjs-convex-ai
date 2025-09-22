@@ -1,0 +1,13 @@
+meta:
+  name: Revalidation Plan
+  version: 1.0.0
+  created_at: "2025-09-20T07:53:44.583817"
+fields:
+  - field: change_id
+    type: string
+  - field: impact
+    type: string
+  - field: tests_required
+    type: string
+  - field: criteria
+    type: string

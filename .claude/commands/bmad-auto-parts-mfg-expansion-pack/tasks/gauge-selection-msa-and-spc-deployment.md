@@ -1,0 +1,1 @@
+../../../../.bmad-auto-parts-mfg-expansion-pack/tasks/gauge-selection-msa-and-spc-deployment.md

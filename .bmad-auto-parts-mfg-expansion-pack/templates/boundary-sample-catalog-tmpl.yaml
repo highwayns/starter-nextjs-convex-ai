@@ -1,0 +1,17 @@
+meta:
+  name: Boundary/Golden Sample Catalog
+  version: 1.0.0
+  created_at: "2025-09-20T07:35:50.961102"
+fields:
+  - field: sample_id
+    type: string
+  - field: type
+    type: enum
+    values:
+      - Boundary
+      - Golden
+      - Defect
+  - field: photos
+    type: string
+  - field: notes
+    type: string

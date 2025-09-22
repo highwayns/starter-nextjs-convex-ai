@@ -1,0 +1,13 @@
+meta:
+  name: Fixture Spec & Calibration Log
+  version: 1.0.0
+  created_at: "2025-09-20T07:53:44.567992"
+fields:
+  - field: fixture_id
+    type: string
+  - field: spec
+    type: string
+  - field: cal_due
+    type: date
+  - field: evidence
+    type: string

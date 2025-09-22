@@ -1,0 +1,13 @@
+meta:
+  name: Test Report
+  version: 1.0.0
+  created_at: "2025-09-20T07:53:44.581812"
+fields:
+  - field: report_id
+    type: string
+  - field: summary
+    type: string
+  - field: results
+    type: string
+  - field: conclusion
+    type: string

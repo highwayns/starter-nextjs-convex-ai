@@ -1,0 +1,11 @@
+meta:
+  name: RBAC Matrix
+  version: 1.0.0
+  created_at: "2025-09-20T13:28:29.296494"
+fields:
+  - field: role
+    type: string
+  - field: permission
+    type: string
+  - field: sod_rule
+    type: string

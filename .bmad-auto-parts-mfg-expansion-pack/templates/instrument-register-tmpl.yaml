@@ -1,0 +1,13 @@
+meta:
+  name: Instrument Register
+  version: 1.0.0
+  created_at: "2025-09-20T07:53:44.568737"
+fields:
+  - field: instrument_id
+    type: string
+  - field: type
+    type: string
+  - field: location
+    type: string
+  - field: cal_status
+    type: string

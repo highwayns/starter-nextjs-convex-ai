@@ -1,0 +1,17 @@
+meta:
+  name: DFMEA
+  version: 1.0.0
+  created_at: "2025-09-20T07:40:39.287589"
+fields:
+  - field: function
+    type: string
+  - field: failure_mode
+    type: string
+  - field: effect
+    type: string
+  - field: cause
+    type: string
+  - field: controls
+    type: string
+  - field: rpn
+    type: number

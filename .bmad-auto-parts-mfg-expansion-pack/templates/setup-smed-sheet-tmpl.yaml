@@ -1,0 +1,13 @@
+meta:
+  name: Setup SMED Sheet
+  version: 1.0.0
+  created_at: "2025-09-20T07:24:07.673571"
+fields:
+  - field: line_id
+    type: string
+  - field: internal_tasks
+    type: string
+  - field: external_tasks
+    type: string
+  - field: total_time_min
+    type: number

@@ -1,0 +1,11 @@
+meta:
+  name: PPAP Index
+  version: 1.0.0
+  created_at: "2025-09-20T07:40:39.290259"
+fields:
+  - field: level
+    type: number
+  - field: elements
+    type: string
+  - field: status
+    type: string

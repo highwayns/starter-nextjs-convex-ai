@@ -1,0 +1,13 @@
+meta:
+  name: SMED Changeover
+  version: 1.0.0
+  created_at: "2025-09-20T07:17:32.461890"
+fields:
+  - field: line_id
+    type: string
+  - field: internal_tasks
+    type: string
+  - field: external_tasks
+    type: string
+  - field: total_time_min
+    type: number

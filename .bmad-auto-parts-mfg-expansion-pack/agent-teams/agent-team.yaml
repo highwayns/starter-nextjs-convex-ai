@@ -1,0 +1,30 @@
+# <!-- Powered by BMAD™ Core -->
+bundle:
+  name: Auto parts Team
+  icon: ✍️
+  description: Complete Auto parts team for Auto parts making projects
+agents:
+  - 01-manufacturing-director
+  - 02-engineering-director
+  - 03-quality-director
+  - 04-operations-manager
+  - 05-production-planning-manager
+  - 06-workshop-supervisor
+  - 07-assembly-line-lead
+  - 08-machining-center-manager
+  - 09-stamping-press-operator
+  - 10-qc-inspector-lead
+  - 11-r-and-d-engineer
+  - 12-process-engineer
+  - 13-test-validation-manager
+  - 14-supply-chain-manager
+  - 15-procurement-specialist
+  - 16-warehouse-logistics-manager
+  - 17-inventory-control-specialist
+  - 18-maintenance-manager
+  - 19-safety-ehs-officer
+  - 20-finance-cost-controller
+  - 21-hr-training-coordinator
+  - 22-it-systems-admin
+workflows:
+  - bmad-batch-parts-mfg-workflow

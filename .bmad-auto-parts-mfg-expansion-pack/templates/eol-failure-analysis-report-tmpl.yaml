@@ -1,0 +1,13 @@
+meta:
+  name: EOL Failure Analysis Report
+  version: 1.0.0
+  created_at: "2025-09-20T07:17:32.470633"
+fields:
+  - field: symptom
+    type: string
+  - field: suspected_causes
+    type: string
+  - field: experiments
+    type: string
+  - field: fix
+    type: string

@@ -1,0 +1,13 @@
+meta:
+  name: Carbon Footprint Checklist
+  version: 1.0.0
+  created_at: "2025-09-20T07:40:39.293097"
+fields:
+  - field: material_emission_factor
+    type: string
+  - field: energy_profile
+    type: string
+  - field: recyclability
+    type: string
+  - field: haz_substances
+    type: string

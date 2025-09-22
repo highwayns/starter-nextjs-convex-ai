@@ -1,0 +1,15 @@
+meta:
+  name: Poka‑Yoke Register
+  version: 1.0.0
+  created_at: "2025-09-20T07:45:24.983714"
+fields:
+  - field: station_id
+    type: string
+  - field: error_type
+    type: string
+  - field: solution
+    type: string
+  - field: interlock
+    type: string
+  - field: verification_method
+    type: string

@@ -1,0 +1,15 @@
+meta:
+  name: Trial Run Capability
+  version: 1.0.0
+  created_at: "2025-09-20T07:45:24.985816"
+fields:
+  - field: wo_no
+    type: string
+  - field: fp y
+    type: number
+  - field: cp
+    type: number
+  - field: cpk
+    type: number
+  - field: oee
+    type: number

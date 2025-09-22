@@ -1,0 +1,17 @@
+meta:
+  name: Finance KPI Dashboard
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.024863"
+fields:
+  - field: period
+    type: string
+  - field: unit_var_cost
+    type: number
+  - field: gm_contribution
+    type: number
+  - field: inventory_turns
+    type: number
+  - field: ppv
+    type: number
+  - field: ccc
+    type: number

@@ -1,0 +1,16 @@
+meta:
+  name: Sensor Verification Log
+  version: 1.0.0
+  created_at: "2025-09-20T07:29:35.991616"
+fields:
+  - field: sensor
+    type: string
+  - field: test_method
+    type: string
+  - field: result
+    type: enum
+    values:
+      - OK
+      - NG
+  - field: action
+    type: string

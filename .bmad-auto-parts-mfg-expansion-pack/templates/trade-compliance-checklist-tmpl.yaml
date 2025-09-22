@@ -1,0 +1,13 @@
+meta:
+  name: Trade Compliance Checklist
+  version: 1.0.0
+  created_at: "2025-09-20T08:08:33.536564"
+fields:
+  - field: hs_code
+    type: string
+  - field: origin
+    type: string
+  - field: incoterms
+    type: string
+  - field: customs_docs
+    type: string

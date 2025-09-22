@@ -1,0 +1,15 @@
+meta:
+  name: Customer Complaint Intake
+  version: 1.0.0
+  created_at: "2025-09-20T07:35:50.965156"
+fields:
+  - field: complaint_id
+    type: string
+  - field: customer
+    type: string
+  - field: lot_no
+    type: string
+  - field: symptom
+    type: string
+  - field: severity
+    type: string

@@ -1,0 +1,15 @@
+meta:
+  name: Cost Target Breakdown
+  version: 1.0.0
+  created_at: "2025-09-20T07:40:39.292298"
+fields:
+  - field: materials
+    type: number
+  - field: processing
+    type: number
+  - field: tooling
+    type: number
+  - field: inspection
+    type: number
+  - field: logistics
+    type: number

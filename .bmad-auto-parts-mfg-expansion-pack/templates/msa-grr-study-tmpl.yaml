@@ -1,0 +1,20 @@
+meta:
+  name: MSA / Gage R&R
+  version: 1.0.0
+  created_at: "2025-09-20T06:52:38.078281"
+fields:
+  - field: gauge_id
+    type: string
+  - field: part_feature
+    type: string
+  - field: type
+    type: enum
+    values:
+      - Crossed
+      - Nested
+  - field: operators
+    type: number
+  - field: parts
+    type: number
+  - field: trials
+    type: number

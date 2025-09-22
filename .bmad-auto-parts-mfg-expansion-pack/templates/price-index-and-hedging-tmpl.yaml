@@ -1,0 +1,11 @@
+meta:
+  name: Price Index & Hedging
+  version: 1.0.0
+  created_at: "2025-09-20T08:08:33.538390"
+fields:
+  - field: material_index
+    type: string
+  - field: fx_pair
+    type: string
+  - field: hedge_strategy
+    type: string

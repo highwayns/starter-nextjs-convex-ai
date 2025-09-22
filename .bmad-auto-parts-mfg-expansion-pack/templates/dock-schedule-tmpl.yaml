@@ -1,0 +1,13 @@
+meta:
+  name: Dock Schedule
+  version: 1.0.0
+  created_at: "2025-09-20T08:13:19.896160"
+fields:
+  - field: date
+    type: date
+  - field: carrier
+    type: string
+  - field: time_window
+    type: string
+  - field: door
+    type: string

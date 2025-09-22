@@ -1,0 +1,13 @@
+meta:
+  name: SLOB Report
+  version: 1.0.0
+  created_at: "2025-09-20T08:19:15.651161"
+fields:
+  - field: item_code
+    type: string
+  - field: onhand
+    type: number
+  - field: age_days
+    type: number
+  - field: disposition
+    type: string

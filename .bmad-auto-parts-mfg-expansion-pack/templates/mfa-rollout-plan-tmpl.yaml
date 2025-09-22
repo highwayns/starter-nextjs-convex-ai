@@ -1,0 +1,13 @@
+meta:
+  name: MFA Rollout Plan
+  version: 1.0.0
+  created_at: "2025-09-20T13:28:29.297694"
+fields:
+  - field: system
+    type: string
+  - field: mfa_method
+    type: string
+  - field: coverage_target
+    type: number
+  - field: exceptions
+    type: string

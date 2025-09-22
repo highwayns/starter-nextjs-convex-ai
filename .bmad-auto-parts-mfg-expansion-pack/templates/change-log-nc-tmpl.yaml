@@ -1,0 +1,13 @@
+meta:
+  name: NC Change Log
+  version: 1.0.0
+  created_at: "2025-09-20T07:24:07.672680"
+fields:
+  - field: program_id
+    type: string
+  - field: change_desc
+    type: string
+  - field: date
+    type: date
+  - field: approved_by
+    type: string

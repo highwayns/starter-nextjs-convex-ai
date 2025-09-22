@@ -1,0 +1,13 @@
+meta:
+  name: ASN Checklist
+  version: 1.0.0
+  created_at: "2025-09-20T08:13:19.896933"
+fields:
+  - field: asn_no
+    type: string
+  - field: fields_ok
+    type: string
+  - field: label_ok
+    type: string
+  - field: exceptions
+    type: string

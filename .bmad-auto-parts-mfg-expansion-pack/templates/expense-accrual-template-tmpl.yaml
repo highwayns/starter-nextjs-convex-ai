@@ -1,0 +1,11 @@
+meta:
+  name: Expense Accrual
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.051998"
+fields:
+  - field: expense_type
+    type: string
+  - field: amount
+    type: number
+  - field: period
+    type: string

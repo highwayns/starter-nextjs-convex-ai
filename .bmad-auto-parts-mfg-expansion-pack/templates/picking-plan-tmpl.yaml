@@ -1,0 +1,11 @@
+meta:
+  name: Picking Plan
+  version: 1.0.0
+  created_at: "2025-09-20T08:13:19.901347"
+fields:
+  - field: method
+    type: string
+  - field: zones
+    type: string
+  - field: wave_windows
+    type: string

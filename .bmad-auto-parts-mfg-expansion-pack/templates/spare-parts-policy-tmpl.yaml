@@ -1,0 +1,15 @@
+meta:
+  name: Spare Parts Policy
+  version: 1.0.0
+  created_at: "2025-09-20T08:50:36.344568"
+fields:
+  - field: part_no
+    type: string
+  - field: criticality
+    type: string
+  - field: safety_stock
+    type: number
+  - field: rop
+    type: number
+  - field: roq
+    type: number

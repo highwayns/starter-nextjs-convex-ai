@@ -1,0 +1,11 @@
+meta:
+  name: EDR Policy
+  version: 1.0.0
+  created_at: "2025-09-20T13:28:29.301719"
+fields:
+  - field: policy_name
+    type: string
+  - field: rules
+    type: string
+  - field: siem_integration
+    type: string

@@ -1,0 +1,13 @@
+meta:
+  name: Chemical Register
+  version: 1.0.0
+  created_at: "2025-09-20T12:59:32.110622"
+fields:
+  - field: chem_name
+    type: string
+  - field: cas
+    type: string
+  - field: sds_rev
+    type: string
+  - field: storage_area
+    type: string

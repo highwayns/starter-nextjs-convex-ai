@@ -1,0 +1,11 @@
+meta:
+  name: Check & Verify Poka-Yoke
+  version: 1.0.0
+  created_at: "2025-09-20T08:13:19.902059"
+fields:
+  - field: verification_method
+    type: string
+  - field: weight_check
+    type: string
+  - field: double_scan
+    type: string

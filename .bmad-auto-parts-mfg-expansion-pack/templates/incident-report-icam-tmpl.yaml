@@ -1,0 +1,13 @@
+meta:
+  name: Incident Report (ICAM)
+  version: 1.0.0
+  created_at: "2025-09-20T12:59:32.153338"
+fields:
+  - field: incident_id
+    type: string
+  - field: type
+    type: string
+  - field: severity
+    type: string
+  - field: root_causes
+    type: string

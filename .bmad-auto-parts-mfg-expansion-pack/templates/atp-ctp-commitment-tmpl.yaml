@@ -1,0 +1,16 @@
+meta:
+  name: ATP/CTP Commitment
+  version: 1.0.0
+  created_at: "2025-09-20T07:06:18.949359"
+fields:
+  - field: order_id
+    type: string
+  - field: committed_date
+    type: date
+  - field: method
+    type: enum
+    values:
+      - ATP
+      - CTP
+  - field: assumptions
+    type: string

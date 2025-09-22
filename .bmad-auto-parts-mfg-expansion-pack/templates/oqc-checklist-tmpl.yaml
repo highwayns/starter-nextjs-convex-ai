@@ -1,0 +1,13 @@
+meta:
+  name: OQC Checklist
+  version: 1.0.0
+  created_at: "2025-09-20T07:35:50.953423"
+fields:
+  - field: order_no
+    type: string
+  - field: lot_no
+    type: string
+  - field: checks
+    type: string
+  - field: result
+    type: string

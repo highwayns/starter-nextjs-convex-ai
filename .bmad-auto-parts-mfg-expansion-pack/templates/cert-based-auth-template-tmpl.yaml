@@ -1,0 +1,11 @@
+meta:
+  name: Certificate-based Auth Template
+  version: 1.0.0
+  created_at: "2025-09-20T13:28:29.311406"
+fields:
+  - field: entity
+    type: string
+  - field: cert_profile
+    type: string
+  - field: expiry
+    type: date

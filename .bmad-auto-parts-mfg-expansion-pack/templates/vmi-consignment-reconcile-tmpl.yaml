@@ -1,0 +1,13 @@
+meta:
+  name: VMI/Consignment Reconcile
+  version: 1.0.0
+  created_at: "2025-09-20T08:19:15.651747"
+fields:
+  - field: supplier
+    type: string
+  - field: opening
+    type: number
+  - field: closing
+    type: number
+  - field: settlement
+    type: number

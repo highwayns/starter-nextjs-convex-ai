@@ -1,0 +1,13 @@
+meta:
+  name: MPS/MRP Output
+  version: 1.0.0
+  created_at: "2025-09-20T08:02:23.406292"
+fields:
+  - field: mps_version
+    type: string
+  - field: mrp_date
+    type: date
+  - field: po_wo_suggestions
+    type: string
+  - field: exceptions
+    type: string

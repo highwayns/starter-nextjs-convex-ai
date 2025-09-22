@@ -1,0 +1,15 @@
+meta:
+  name: SPC Xbar-R Chart
+  version: 1.0.0
+  created_at: "2025-09-20T06:52:38.076859"
+fields:
+  - field: characteristic
+    type: string
+  - field: subgroup_size
+    type: number
+  - field: ucl
+    type: number
+  - field: lcl
+    type: number
+  - field: rules
+    type: string

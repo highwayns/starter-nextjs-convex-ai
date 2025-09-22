@@ -1,0 +1,13 @@
+meta:
+  name: Kanban Parameter
+  version: 1.0.0
+  created_at: "2025-09-20T08:19:15.654169"
+fields:
+  - field: item_code
+    type: string
+  - field: kanban_qty
+    type: number
+  - field: cards
+    type: number
+  - field: freq_min
+    type: number

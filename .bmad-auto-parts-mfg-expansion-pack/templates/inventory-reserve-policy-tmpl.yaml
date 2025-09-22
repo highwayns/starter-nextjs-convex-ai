@@ -1,0 +1,11 @@
+meta:
+  name: Inventory Reserve Policy
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.060259"
+fields:
+  - field: rule
+    type: string
+  - field: threshold
+    type: number
+  - field: reserve_rate
+    type: number

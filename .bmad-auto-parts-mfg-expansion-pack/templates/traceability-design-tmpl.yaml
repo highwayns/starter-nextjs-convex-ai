@@ -1,0 +1,13 @@
+meta:
+  name: Traceability Design
+  version: 1.0.0
+  created_at: "2025-09-20T07:45:24.989021"
+fields:
+  - field: serialization
+    type: string
+  - field: scan_points
+    type: string
+  - field: label_spec
+    type: string
+  - field: mes_interface
+    type: string

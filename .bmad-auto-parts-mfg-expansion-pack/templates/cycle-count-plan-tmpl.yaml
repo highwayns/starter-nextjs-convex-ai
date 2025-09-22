@@ -1,0 +1,11 @@
+meta:
+  name: Cycle Count Plan
+  version: 1.0.0
+  created_at: "2025-09-20T08:19:15.648499"
+fields:
+  - field: abc_frequency
+    type: string
+  - field: blind_count
+    type: string
+  - field: recount_rules
+    type: string

@@ -1,0 +1,13 @@
+meta:
+  name: Cash Conversion Cycle
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.021971"
+fields:
+  - field: period
+    type: string
+  - field: dso
+    type: number
+  - field: dpo
+    type: number
+  - field: dio
+    type: number

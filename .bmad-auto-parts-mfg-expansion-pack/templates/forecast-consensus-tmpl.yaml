@@ -1,0 +1,17 @@
+meta:
+  name: Forecast Consensus
+  version: 1.0.0
+  created_at: "2025-09-20T07:06:18.934810"
+fields:
+  - field: period
+    type: string
+  - field: sku
+    type: string
+  - field: statistical_fcst
+    type: number
+  - field: sales_override
+    type: number
+  - field: consensus
+    type: number
+  - field: comment
+    type: string

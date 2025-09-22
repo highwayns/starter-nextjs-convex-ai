@@ -1,0 +1,11 @@
+meta:
+  name: Recall Test Support
+  version: 1.0.0
+  created_at: "2025-09-20T07:53:44.584404"
+fields:
+  - field: complaint_id
+    type: string
+  - field: reproduction_plan
+    type: string
+  - field: evidence
+    type: string

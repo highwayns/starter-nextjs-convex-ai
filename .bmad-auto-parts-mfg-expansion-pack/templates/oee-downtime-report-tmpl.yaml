@@ -1,0 +1,15 @@
+meta:
+  name: OEE & Downtime Report
+  version: 1.0.0
+  created_at: "2025-09-20T08:50:36.355632"
+fields:
+  - field: line_id
+    type: string
+  - field: oee
+    type: number
+  - field: mtbf
+    type: number
+  - field: mttr
+    type: number
+  - field: top_losses
+    type: string

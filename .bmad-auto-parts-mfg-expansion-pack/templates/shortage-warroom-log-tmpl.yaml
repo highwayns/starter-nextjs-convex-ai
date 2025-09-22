@@ -1,0 +1,15 @@
+meta:
+  name: Shortage Warroom Log
+  version: 1.0.0
+  created_at: "2025-09-20T08:08:33.535062"
+fields:
+  - field: priority
+    type: string
+  - field: item
+    type: string
+  - field: order
+    type: string
+  - field: eta
+    type: string
+  - field: actions
+    type: string

@@ -1,0 +1,13 @@
+meta:
+  name: FIFO/FEFO Audit
+  version: 1.0.0
+  created_at: "2025-09-20T08:19:15.649765"
+fields:
+  - field: item_code
+    type: string
+  - field: lot
+    type: string
+  - field: expiry
+    type: date
+  - field: fefo_ok
+    type: string

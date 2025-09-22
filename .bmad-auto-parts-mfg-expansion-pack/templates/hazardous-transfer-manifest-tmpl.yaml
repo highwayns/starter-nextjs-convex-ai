@@ -1,0 +1,13 @@
+meta:
+  name: Hazardous Transfer Manifest
+  version: 1.0.0
+  created_at: "2025-09-20T12:59:32.129394"
+fields:
+  - field: manifest_no
+    type: string
+  - field: waste_code
+    type: string
+  - field: weight_kg
+    type: number
+  - field: transporter
+    type: string

@@ -1,0 +1,13 @@
+meta:
+  name: OT Backup Register
+  version: 1.0.0
+  created_at: "2025-09-20T07:24:07.685633"
+fields:
+  - field: controller
+    type: string
+  - field: backup_date
+    type: date
+  - field: scope
+    type: string
+  - field: restore_test
+    type: string

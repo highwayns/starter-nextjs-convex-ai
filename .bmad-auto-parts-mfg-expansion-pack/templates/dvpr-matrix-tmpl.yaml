@@ -1,0 +1,20 @@
+meta:
+  name: DVP&R Matrix
+  version: 1.0.0
+  created_at: "2025-09-20T06:46:15.608955"
+fields:
+  - field: test_item
+    type: string
+  - field: standard
+    type: string
+  - field: sample_size
+    type: number
+  - field: acceptance_criteria
+    type: string
+  - field: status
+    type: enum
+    values:
+      - Planned
+      - Running
+      - Pass
+      - Fail

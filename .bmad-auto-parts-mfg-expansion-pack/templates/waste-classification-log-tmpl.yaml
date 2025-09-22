@@ -1,0 +1,13 @@
+meta:
+  name: Waste Classification Log
+  version: 1.0.0
+  created_at: "2025-09-20T12:59:32.128152"
+fields:
+  - field: waste_code
+    type: string
+  - field: category
+    type: string
+  - field: storage_area
+    type: string
+  - field: disposal_route
+    type: string

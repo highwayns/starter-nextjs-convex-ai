@@ -1,0 +1,15 @@
+meta:
+  name: Kanban Sizing
+  version: 1.0.0
+  created_at: "2025-09-20T07:06:18.953154"
+fields:
+  - field: sku
+    type: string
+  - field: demand_rate_per_hr
+    type: number
+  - field: lead_time_hr
+    type: number
+  - field: container_qty
+    type: number
+  - field: cards
+    type: number

@@ -1,0 +1,13 @@
+meta:
+  name: Inventory Valuation Report
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.007683"
+fields:
+  - field: period
+    type: string
+  - field: method
+    type: string
+  - field: value
+    type: number
+  - field: reserve
+    type: number

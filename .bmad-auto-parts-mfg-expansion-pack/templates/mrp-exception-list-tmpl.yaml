@@ -1,0 +1,21 @@
+meta:
+  name: MRP Exception List
+  version: 1.0.0
+  created_at: "2025-09-20T07:06:18.939207"
+fields:
+  - field: message_type
+    type: enum
+    values:
+      - Expedite
+      - De-expedite
+      - Cancel
+      - Reschedule
+      - Substitute
+  - field: order_id
+    type: string
+  - field: item_code
+    type: string
+  - field: due_date
+    type: date
+  - field: qty
+    type: number

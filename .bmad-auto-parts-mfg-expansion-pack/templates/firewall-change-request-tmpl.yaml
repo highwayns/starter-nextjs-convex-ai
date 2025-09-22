@@ -1,0 +1,13 @@
+meta:
+  name: Firewall Change Request
+  version: 1.0.0
+  created_at: "2025-09-20T13:28:29.308016"
+fields:
+  - field: requester
+    type: string
+  - field: business_need
+    type: string
+  - field: risk_assessment
+    type: string
+  - field: rollback
+    type: string

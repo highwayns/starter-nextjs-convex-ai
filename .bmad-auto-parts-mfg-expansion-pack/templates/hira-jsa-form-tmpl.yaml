@@ -1,0 +1,15 @@
+meta:
+  name: HIRA/JSA Form
+  version: 1.0.0
+  created_at: "2025-09-20T12:59:32.102330"
+fields:
+  - field: job
+    type: string
+  - field: step
+    type: string
+  - field: hazards
+    type: string
+  - field: risk_score
+    type: number
+  - field: controls
+    type: string

@@ -1,0 +1,13 @@
+meta:
+  name: Supplier KPI Dashboard
+  version: 1.0.0
+  created_at: "2025-09-20T08:08:33.533309"
+fields:
+  - field: supplier
+    type: string
+  - field: otif
+    type: number
+  - field: ppm
+    type: number
+  - field: ppv
+    type: number

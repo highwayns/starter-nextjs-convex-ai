@@ -1,0 +1,13 @@
+meta:
+  name: Lab Capability Assessment
+  version: 1.0.0
+  created_at: "2025-09-20T07:53:44.566610"
+fields:
+  - field: method_scope
+    type: string
+  - field: equipment
+    type: string
+  - field: environment
+    type: string
+  - field: uncertainty_budget
+    type: string

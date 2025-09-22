@@ -1,0 +1,16 @@
+meta:
+  name: CQI Assessment Report
+  version: 1.0.0
+  created_at: "2025-09-20T06:52:38.084444"
+fields:
+  - field: process
+    type: string
+  - field: criteria
+    type: string
+  - field: status
+    type: enum
+    values:
+      - OK
+      - NG
+  - field: actions
+    type: string

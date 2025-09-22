@@ -1,0 +1,13 @@
+meta:
+  name: V&V Master Plan
+  version: 1.0.0
+  created_at: "2025-09-20T07:53:44.563732"
+fields:
+  - field: ctq_list
+    type: string
+  - field: phases
+    type: string
+  - field: milestones
+    type: string
+  - field: owners
+    type: string

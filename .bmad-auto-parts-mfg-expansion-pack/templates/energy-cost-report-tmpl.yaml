@@ -1,0 +1,13 @@
+meta:
+  name: Energy & Unit Cost Report
+  version: 1.0.0
+  created_at: "2025-09-20T07:45:24.989689"
+fields:
+  - field: period
+    type: string
+  - field: unit_cost
+    type: number
+  - field: energy_kwh_per_unit
+    type: number
+  - field: actions
+    type: string

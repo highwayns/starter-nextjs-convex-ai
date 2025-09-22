@@ -1,0 +1,13 @@
+meta:
+  name: SDS Approval
+  version: 1.0.0
+  created_at: "2025-09-20T12:59:32.112082"
+fields:
+  - field: chem_name
+    type: string
+  - field: supplier
+    type: string
+  - field: sds_date
+    type: date
+  - field: approved
+    type: string

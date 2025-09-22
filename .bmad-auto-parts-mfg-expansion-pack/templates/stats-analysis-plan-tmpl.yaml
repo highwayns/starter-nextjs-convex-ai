@@ -1,0 +1,13 @@
+meta:
+  name: Stats Analysis Plan
+  version: 1.0.0
+  created_at: "2025-09-20T07:53:44.580942"
+fields:
+  - field: hypotheses
+    type: string
+  - field: power
+    type: number
+  - field: alpha
+    type: number
+  - field: methods
+    type: string

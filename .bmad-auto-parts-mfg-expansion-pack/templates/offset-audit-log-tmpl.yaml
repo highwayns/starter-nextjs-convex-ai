@@ -1,0 +1,15 @@
+meta:
+  name: Offset Audit Log
+  version: 1.0.0
+  created_at: "2025-09-20T07:24:07.675036"
+fields:
+  - field: machine_id
+    type: string
+  - field: axis
+    type: string
+  - field: tool_offset
+    type: number
+  - field: work_offset
+    type: number
+  - field: thermal_comp
+    type: string

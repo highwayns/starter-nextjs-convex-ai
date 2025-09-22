@@ -1,0 +1,13 @@
+meta:
+  name: WMS Master Data
+  version: 1.0.0
+  created_at: "2025-09-20T08:13:19.936538"
+fields:
+  - field: items
+    type: string
+  - field: locations
+    type: string
+  - field: uoms
+    type: string
+  - field: batch_rules
+    type: string

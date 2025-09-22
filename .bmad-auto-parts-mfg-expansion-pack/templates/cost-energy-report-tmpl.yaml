@@ -1,0 +1,13 @@
+meta:
+  name: Cost & Energy Report
+  version: 1.0.0
+  created_at: "2025-09-20T07:24:07.686291"
+fields:
+  - field: period
+    type: string
+  - field: unit_cost
+    type: number
+  - field: kwh_per_unit
+    type: number
+  - field: actions
+    type: string

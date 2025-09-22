@@ -1,0 +1,13 @@
+meta:
+  name: PPAP Financial Readiness
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.020444"
+fields:
+  - field: project
+    type: string
+  - field: std_cost_ready
+    type: string
+  - field: tooling_cash_plan
+    type: string
+  - field: run_rate_cash_buffer
+    type: string

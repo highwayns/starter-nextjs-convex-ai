@@ -1,0 +1,13 @@
+meta:
+  name: Pegging Report
+  version: 1.0.0
+  created_at: "2025-09-20T07:06:18.950191"
+fields:
+  - field: demand_id
+    type: string
+  - field: supply_ref
+    type: string
+  - field: qty
+    type: number
+  - field: note
+    type: string

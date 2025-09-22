@@ -1,0 +1,13 @@
+meta:
+  name: Forecast & Rolling S&OP
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.048597"
+fields:
+  - field: period
+    type: string
+  - field: volume
+    type: number
+  - field: std_cost
+    type: number
+  - field: price
+    type: number

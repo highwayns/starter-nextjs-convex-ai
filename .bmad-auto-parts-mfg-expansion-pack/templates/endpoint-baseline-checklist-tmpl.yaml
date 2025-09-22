@@ -1,0 +1,11 @@
+meta:
+  name: Endpoint Baseline Checklist
+  version: 1.0.0
+  created_at: "2025-09-20T13:28:29.298989"
+fields:
+  - field: os
+    type: string
+  - field: policy
+    type: string
+  - field: status
+    type: string

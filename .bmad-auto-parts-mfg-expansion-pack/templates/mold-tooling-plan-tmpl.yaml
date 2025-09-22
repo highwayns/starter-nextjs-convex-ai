@@ -1,0 +1,13 @@
+meta:
+  name: Mold/Tooling Plan
+  version: 1.0.0
+  created_at: "2025-09-20T08:50:36.350238"
+fields:
+  - field: tool_id
+    type: string
+  - field: life_shots
+    type: number
+  - field: inspection_interval
+    type: string
+  - field: actions
+    type: string

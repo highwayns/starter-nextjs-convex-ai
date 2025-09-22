@@ -1,0 +1,13 @@
+meta:
+  name: Process Map
+  version: 1.0.0
+  created_at: "2025-09-20T07:45:24.967634"
+fields:
+  - field: process_name
+    type: string
+  - field: inputs
+    type: string
+  - field: outputs
+    type: string
+  - field: qc_points
+    type: string

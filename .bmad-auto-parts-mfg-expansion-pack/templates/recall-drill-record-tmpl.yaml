@@ -1,0 +1,16 @@
+meta:
+  name: Recall Drill Record
+  version: 1.0.0
+  created_at: "2025-09-20T07:17:32.471470"
+fields:
+  - field: trigger_serial
+    type: string
+  - field: isolation_time_min
+    type: number
+  - field: trace_complete
+    type: enum
+    values:
+      - "Yes"
+      - "No"
+  - field: gaps
+    type: string

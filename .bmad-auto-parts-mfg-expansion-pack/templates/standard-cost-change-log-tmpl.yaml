@@ -1,0 +1,13 @@
+meta:
+  name: Standard Cost Change Log
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.053194"
+fields:
+  - field: item
+    type: string
+  - field: old_cost
+    type: number
+  - field: new_cost
+    type: number
+  - field: effective_date
+    type: date

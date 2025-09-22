@@ -1,0 +1,13 @@
+meta:
+  name: Month-End Reconciliation
+  version: 1.0.0
+  created_at: "2025-09-20T08:19:15.652320"
+fields:
+  - field: wms_balance
+    type: number
+  - field: erp_balance
+    type: number
+  - field: finance_balance
+    type: number
+  - field: variance
+    type: number

@@ -1,0 +1,13 @@
+meta:
+  name: SMED Plan
+  version: 1.0.0
+  created_at: "2025-09-20T06:41:05.572399"
+fields:
+  - field: line_or_machine
+    type: string
+  - field: current_changeover_min
+    type: number
+  - field: target_changeover_min
+    type: number
+  - field: actions
+    type: string

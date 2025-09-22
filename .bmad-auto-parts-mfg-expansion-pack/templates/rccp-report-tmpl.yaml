@@ -1,0 +1,15 @@
+meta:
+  name: RCCP Report
+  version: 1.0.0
+  created_at: "2025-09-20T07:06:18.938265"
+fields:
+  - field: resource
+    type: string
+  - field: load_hours
+    type: number
+  - field: capacity_hours
+    type: number
+  - field: utilization_pct
+    type: number
+  - field: actions
+    type: string

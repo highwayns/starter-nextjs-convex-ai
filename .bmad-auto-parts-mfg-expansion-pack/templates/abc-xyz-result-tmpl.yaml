@@ -1,0 +1,13 @@
+meta:
+  name: ABC/XYZ Result
+  version: 1.0.0
+  created_at: "2025-09-20T08:19:15.642897"
+fields:
+  - field: item_code
+    type: string
+  - field: abc
+    type: string
+  - field: xyz
+    type: string
+  - field: policy
+    type: string

@@ -1,0 +1,15 @@
+meta:
+  name: MPS Table
+  version: 1.0.0
+  created_at: "2025-09-20T07:06:18.936633"
+fields:
+  - field: week_start
+    type: date
+  - field: sku
+    type: string
+  - field: frozen_qty
+    type: number
+  - field: slushy_qty
+    type: number
+  - field: liquid_qty
+    type: number

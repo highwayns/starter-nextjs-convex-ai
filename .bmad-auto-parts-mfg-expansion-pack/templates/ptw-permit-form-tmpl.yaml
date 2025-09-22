@@ -1,0 +1,19 @@
+meta:
+  name: Permit to Work Form
+  version: 1.0.0
+  created_at: "2025-09-20T12:59:32.105099"
+fields:
+  - field: permit_id
+    type: string
+  - field: type
+    type: string
+  - field: area
+    type: string
+  - field: issuer
+    type: string
+  - field: holder
+    type: string
+  - field: start
+    type: datetime
+  - field: end
+    type: datetime

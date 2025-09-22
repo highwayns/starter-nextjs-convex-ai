@@ -1,0 +1,13 @@
+meta:
+  name: Inventory Policy
+  version: 1.0.0
+  created_at: "2025-09-20T08:19:15.643529"
+fields:
+  - field: service_level
+    type: number
+  - field: safety_stock
+    type: number
+  - field: rop
+    type: number
+  - field: roq
+    type: number

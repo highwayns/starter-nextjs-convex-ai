@@ -1,0 +1,9 @@
+name: bmad-auto-parts-mfg-expansion-pack
+short-title: Auto Parts Pack
+description: >-
+  An expansion pack for BMAD-Method that standardizes an Auto Parts Team:
+  agents, tasks, output templates, checklists, roles, workflows and manifests aligned
+  to BMAD core standards across creative preproduction → production → post & delivery.
+version: 1.1.0
+license: MIT
+i18n: { defaultLocale: "zh-CN", locales: ["zh-CN", "en"] }

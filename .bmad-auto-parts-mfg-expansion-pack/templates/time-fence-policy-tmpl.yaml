@@ -1,0 +1,15 @@
+meta:
+  name: Time Fence Policy
+  version: 1.0.0
+  created_at: "2025-09-20T07:06:18.937347"
+fields:
+  - field: sku
+    type: string
+  - field: frozen_weeks
+    type: number
+  - field: slushy_weeks
+    type: number
+  - field: liquid_weeks
+    type: number
+  - field: rules
+    type: string

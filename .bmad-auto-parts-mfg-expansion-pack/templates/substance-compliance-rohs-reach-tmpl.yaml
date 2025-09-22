@@ -1,0 +1,11 @@
+meta:
+  name: Substance Compliance (RoHS/REACH)
+  version: 1.0.0
+  created_at: "2025-09-20T08:08:33.537238"
+fields:
+  - field: substance
+    type: string
+  - field: limit
+    type: string
+  - field: evidence
+    type: string

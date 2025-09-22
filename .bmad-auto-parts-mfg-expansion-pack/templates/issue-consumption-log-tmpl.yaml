@@ -1,0 +1,13 @@
+meta:
+  name: Issue & Consumption Log
+  version: 1.0.0
+  created_at: "2025-09-20T08:19:15.647831"
+fields:
+  - field: order_no
+    type: string
+  - field: item_code
+    type: string
+  - field: qty
+    type: number
+  - field: posting_point
+    type: string

@@ -1,0 +1,13 @@
+meta:
+  name: Forecast Pack
+  version: 1.0.0
+  created_at: "2025-09-20T08:02:23.404335"
+fields:
+  - field: method
+    type: string
+  - field: assumptions
+    type: string
+  - field: forecast_series
+    type: string
+  - field: bias_mape
+    type: string

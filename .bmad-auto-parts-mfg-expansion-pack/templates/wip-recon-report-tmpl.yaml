@@ -1,0 +1,11 @@
+meta:
+  name: WIP Reconciliation Report
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.008925"
+fields:
+  - field: period
+    type: string
+  - field: wip_amount
+    type: number
+  - field: issues
+    type: string

@@ -1,0 +1,11 @@
+meta:
+  name: Dock-to-Stock Log
+  version: 1.0.0
+  created_at: "2025-09-20T08:19:15.644249"
+fields:
+  - field: asn_no
+    type: string
+  - field: dock_to_stock_min
+    type: number
+  - field: exceptions
+    type: string

@@ -1,0 +1,15 @@
+meta:
+  name: ECR/ECN Impact Assessment
+  version: 1.0.0
+  created_at: "2025-09-20T06:46:15.613114"
+fields:
+  - field: change_id
+    type: string
+  - field: impact_quality
+    type: string
+  - field: impact_delivery
+    type: string
+  - field: impact_cost
+    type: string
+  - field: cutover_plan
+    type: string

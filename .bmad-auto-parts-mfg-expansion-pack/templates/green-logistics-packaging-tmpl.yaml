@@ -1,0 +1,11 @@
+meta:
+  name: Green Logistics & Packaging
+  version: 1.0.0
+  created_at: "2025-09-20T08:02:23.437958"
+fields:
+  - field: co2_per_km
+    type: number
+  - field: load_factor
+    type: number
+  - field: returnable_ratio
+    type: number

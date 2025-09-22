@@ -1,0 +1,13 @@
+meta:
+  name: Sourcing Strategy
+  version: 1.0.0
+  created_at: "2025-09-20T08:02:23.408307"
+fields:
+  - field: category
+    type: string
+  - field: tco
+    type: string
+  - field: risk_heatmap
+    type: string
+  - field: award_recommendation
+    type: string

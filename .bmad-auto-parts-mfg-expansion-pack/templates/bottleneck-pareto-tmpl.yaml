@@ -1,0 +1,11 @@
+meta:
+  name: Bottleneck Pareto
+  version: 1.0.0
+  created_at: "2025-09-20T06:41:05.573049"
+fields:
+  - field: loss_category
+    type: string
+  - field: minutes
+    type: number
+  - field: count
+    type: number

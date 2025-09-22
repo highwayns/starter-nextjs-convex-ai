@@ -1,0 +1,13 @@
+meta:
+  name: Scrap/Rework Ticket
+  version: 1.0.0
+  created_at: "2025-09-20T07:17:32.463918"
+fields:
+  - field: order_id
+    type: string
+  - field: defect_code
+    type: string
+  - field: qty
+    type: number
+  - field: disposition
+    type: string

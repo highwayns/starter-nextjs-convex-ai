@@ -1,0 +1,15 @@
+meta:
+  name: SPC Setup
+  version: 1.0.0
+  created_at: "2025-09-20T07:45:24.982951"
+fields:
+  - field: characteristic
+    type: string
+  - field: chart_type
+    type: string
+  - field: subgroup_size
+    type: number
+  - field: rules
+    type: string
+  - field: alarm_thresholds
+    type: string

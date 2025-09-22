@@ -1,0 +1,13 @@
+meta:
+  name: Training Matrix
+  version: 1.0.0
+  created_at: "2025-09-20T07:53:44.585035"
+fields:
+  - field: name
+    type: string
+  - field: role
+    type: string
+  - field: qualifications
+    type: string
+  - field: valid_until
+    type: date

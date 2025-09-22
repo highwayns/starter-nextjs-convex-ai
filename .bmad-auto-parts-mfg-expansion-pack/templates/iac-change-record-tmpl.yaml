@@ -1,0 +1,13 @@
+meta:
+  name: IaC Change Record
+  version: 1.0.0
+  created_at: "2025-09-20T13:28:29.326060"
+fields:
+  - field: change_id
+    type: string
+  - field: repo
+    type: string
+  - field: commit
+    type: string
+  - field: reviewers
+    type: string

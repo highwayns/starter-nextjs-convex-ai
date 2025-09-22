@@ -1,0 +1,13 @@
+meta:
+  name: PV Plan
+  version: 1.0.0
+  created_at: "2025-09-20T07:53:44.565096"
+fields:
+  - field: process_consistency
+    type: string
+  - field: sampling
+    type: string
+  - field: capability_targets
+    type: string
+  - field: release
+    type: string

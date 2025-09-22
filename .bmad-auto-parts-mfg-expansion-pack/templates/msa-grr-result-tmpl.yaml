@@ -1,0 +1,17 @@
+meta:
+  name: MSA GRR Result
+  version: 1.0.0
+  created_at: "2025-09-20T07:35:50.957420"
+fields:
+  - field: gauge_id
+    type: string
+  - field: ev
+    type: number
+  - field: av
+    type: number
+  - field: rr
+    type: number
+  - field: ndc
+    type: number
+  - field: decision
+    type: string

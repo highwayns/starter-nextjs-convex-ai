@@ -1,0 +1,13 @@
+meta:
+  name: Drill Record
+  version: 1.0.0
+  created_at: "2025-09-20T12:59:32.151463"
+fields:
+  - field: date
+    type: date
+  - field: scenario
+    type: string
+  - field: participants
+    type: number
+  - field: lessons
+    type: string

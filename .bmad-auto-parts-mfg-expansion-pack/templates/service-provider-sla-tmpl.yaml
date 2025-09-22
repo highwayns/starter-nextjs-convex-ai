@@ -1,0 +1,13 @@
+meta:
+  name: Service Provider SLA
+  version: 1.0.0
+  created_at: "2025-09-20T08:50:36.358118"
+fields:
+  - field: vendor
+    type: string
+  - field: scope
+    type: string
+  - field: sla_kpis
+    type: string
+  - field: penalties
+    type: string

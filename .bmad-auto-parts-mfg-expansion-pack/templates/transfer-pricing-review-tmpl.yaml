@@ -1,0 +1,11 @@
+meta:
+  name: Transfer Pricing Review
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.055945"
+fields:
+  - field: entity_pair
+    type: string
+  - field: method
+    type: string
+  - field: margin
+    type: number

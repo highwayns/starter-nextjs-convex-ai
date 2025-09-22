@@ -1,0 +1,13 @@
+meta:
+  name: Tool Life Log
+  version: 1.0.0
+  created_at: "2025-09-20T07:24:07.676482"
+fields:
+  - field: tool_id
+    type: string
+  - field: life_rule
+    type: string
+  - field: actual_life
+    type: number
+  - field: reason_change
+    type: string

@@ -1,0 +1,15 @@
+meta:
+  name: Torque/Press Program Spec
+  version: 1.0.0
+  created_at: "2025-09-20T07:17:32.455257"
+fields:
+  - field: station_id
+    type: string
+  - field: program_id
+    type: string
+  - field: parameters
+    type: string
+  - field: revision
+    type: string
+  - field: calibration_due
+    type: date

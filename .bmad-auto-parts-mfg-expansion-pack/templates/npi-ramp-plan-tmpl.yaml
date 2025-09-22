@@ -1,0 +1,13 @@
+meta:
+  name: NPI Ramp Plan
+  version: 1.0.0
+  created_at: "2025-09-20T07:06:18.957804"
+fields:
+  - field: project_id
+    type: string
+  - field: milestones
+    type: string
+  - field: capacity_reservation
+    type: string
+  - field: quality_gates
+    type: string

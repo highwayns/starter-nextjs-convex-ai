@@ -1,0 +1,13 @@
+meta:
+  name: ERP/MES Change Record
+  version: 1.0.0
+  created_at: "2025-09-20T13:28:29.312453"
+fields:
+  - field: change_id
+    type: string
+  - field: env
+    type: string
+  - field: objects
+    type: string
+  - field: rollback
+    type: string

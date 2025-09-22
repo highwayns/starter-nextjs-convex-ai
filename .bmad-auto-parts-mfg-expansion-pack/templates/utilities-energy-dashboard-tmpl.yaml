@@ -1,0 +1,13 @@
+meta:
+  name: Utilities & Energy Dashboard
+  version: 1.0.0
+  created_at: "2025-09-20T08:50:36.351253"
+fields:
+  - field: utility
+    type: string
+  - field: kpi
+    type: string
+  - field: value
+    type: number
+  - field: period
+    type: string

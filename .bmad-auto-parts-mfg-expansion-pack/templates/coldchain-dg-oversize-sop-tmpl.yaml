@@ -1,0 +1,11 @@
+meta:
+  name: Coldchain/DG/Oversize SOP
+  version: 1.0.0
+  created_at: "2025-09-20T08:13:19.933304"
+fields:
+  - field: material_type
+    type: string
+  - field: controls
+    type: string
+  - field: records
+    type: string

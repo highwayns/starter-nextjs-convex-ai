@@ -1,0 +1,13 @@
+meta:
+  name: Tax Compliance Check
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.023294"
+fields:
+  - field: topic
+    type: string
+  - field: status
+    type: string
+  - field: evidence
+    type: string
+  - field: risk
+    type: string

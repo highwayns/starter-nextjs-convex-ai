@@ -1,0 +1,13 @@
+meta:
+  name: RCA (5Why/Fishbone)
+  version: 1.0.0
+  created_at: "2025-09-20T08:50:36.343441"
+fields:
+  - field: event_id
+    type: string
+  - field: problem
+    type: string
+  - field: why_chain
+    type: string
+  - field: countermeasures
+    type: string

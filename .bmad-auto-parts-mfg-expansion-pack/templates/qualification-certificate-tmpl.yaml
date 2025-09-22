@@ -1,0 +1,15 @@
+meta:
+  name: Qualification Certificate
+  version: 1.0.0
+  created_at: "2025-09-20T13:12:53.756824"
+fields:
+  - field: name
+    type: string
+  - field: role
+    type: string
+  - field: qualification
+    type: string
+  - field: issue_date
+    type: date
+  - field: expiry
+    type: date

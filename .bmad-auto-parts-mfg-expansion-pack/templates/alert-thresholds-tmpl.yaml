@@ -1,0 +1,13 @@
+meta:
+  name: Alert Thresholds
+  version: 1.0.0
+  created_at: "2025-09-20T08:50:36.354609"
+fields:
+  - field: tag
+    type: string
+  - field: warning
+    type: number
+  - field: alarm
+    type: number
+  - field: latch_rule
+    type: string

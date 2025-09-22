@@ -1,0 +1,11 @@
+meta:
+  name: Data Retention Schedule
+  version: 1.0.0
+  created_at: "2025-09-20T13:28:29.352579"
+fields:
+  - field: data_set
+    type: string
+  - field: retention
+    type: string
+  - field: disposal
+    type: string

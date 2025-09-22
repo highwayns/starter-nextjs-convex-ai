@@ -1,0 +1,351 @@
+# BMAD-Workflow: Automotive Parts — Batch Manufacturing (18 Roles, E2E)
+# Format: BMAD-method workflow (single YAML)
+
+activation-instructions:
+  - Phases execute in order unless 'overlap_allowed' is true and all listed dependencies are satisfied.
+  - "All 'tasks_mandatory' must produce evidence using referenced templates; store evidence under DMS key: {WO}-{YYYYMMDD}."
+  - Gate fails trigger 'containment' + CAPA; return to owner phase and re-run the gate.
+  - Use RACI strictly; if Accountable (A) is absent, Operations Manager is temporary A for production-day decisions.
+
+workflow:
+  id: WF-BATCH-PARTS-001-V2
+  name: Automotive Parts — Batch Manufacturing (V2)
+  version: 2.0.0
+  created_at: "2025-09-21T05:07:57.232556"
+  scope:
+    object: "Production Batch / Work Order"
+    site: "Automotive Components Plant"
+    coverage: "Order intake → Engineering readiness → Supply → Prep (PTW/LOTO) → Machining/Stamping → Assembly/QA → Pack&Ship → Finance close"
+  triggers:
+    - customer_order_confirmed
+    - internal_replenishment_from_MPS
+  inputs:
+    - sales_order_or_replenishment_request
+    - approved_BOM/Routing/Master_Data
+    - approved_DFMEA/PFMEA/Control_Plan (if new/changed part)
+  outputs:
+    - conforming_parts_packed_and_labeled
+    - updated_traceability_records (ERP/MES/QMS)
+    - COA/inspection_reports/PPAP_artifacts (as required)
+    - financial_postings_and_kpi_snapshot
+
+  roles: # 18 core roles
+    - Production Director
+    - Engineering Director
+    - Quality Director
+    - Operations Manager
+    - Production Planning Manager
+    - Workshop Supervisor
+    - Assembly Line Lead
+    - Machining Center Manager
+    - Stamping Press Operator
+    - QC Inspector Lead
+    - R&D Engineer
+    - Process Engineer
+    - Test & Validation Manager
+    - Supply Chain Manager
+    - Procurement Specialist
+    - Warehouse Logistics Manager
+    - Inventory Control Specialist
+    - Maintenance Manager
+
+  support_roles: # supportive
+    - Safety EHS Officer
+    - Finance/Cost Controller
+    - HR Training Coordinator
+    - IT Systems Admin
+
+  raci_matrix:
+    - activity: SIOP_to_MPS_and_Batch_Release
+      R: [Production Planning Manager, Supply Chain Manager]
+      A: Operations Manager
+      C: [Finance/Cost Controller, Warehouse Logistics Manager, Inventory Control Specialist]
+      I: [Production Director, Engineering Director, Quality Director]
+    - activity: Engineering_Readiness_(BOM/Routing/Control_Plan)
+      R: [Process Engineer, R&D Engineer]
+      A: Engineering Director
+      C: [Quality Director, Test & Validation Manager, Maintenance Manager, IT Systems Admin]
+      I: [Operations Manager, Production Planning Manager]
+    - activity: Supplier_Readiness_and_Procurement
+      R: [Procurement Specialist, Supply Chain Manager]
+      A: Supply Chain Manager
+      C:
+        [
+          Quality Director,
+          Warehouse Logistics Manager,
+          Inventory Control Specialist,
+          Finance/Cost Controller,
+          Safety EHS Officer,
+        ]
+      I: [Operations Manager, Production Planning Manager]
+    - activity: Production_Preparation_(PTW/LOTO/Setup)
+      R: [Workshop Supervisor, Machining Center Manager, Maintenance Manager]
+      A: Operations Manager
+      C: [Safety EHS Officer, IT Systems Admin, HR Training Coordinator]
+      I: [Quality Director]
+    - activity: Machining_and_Stamping
+      R: [Machining Center Manager, Stamping Press Operator, Workshop Supervisor]
+      A: Operations Manager
+      C: [Maintenance Manager, QC Inspector Lead]
+      I: [Production Planning Manager]
+    - activity: Assembly_Line_Run
+      R: [Assembly Line Lead]
+      A: Operations Manager
+      C: [QC Inspector Lead, Maintenance Manager, Process Engineer]
+      I: [Production Planning Manager]
+    - activity: In-Process_and_Final_Quality
+      R: [QC Inspector Lead]
+      A: Quality Director
+      C: [Process Engineer, Assembly Line Lead, Machining Center Manager]
+      I: [Operations Manager]
+    - activity: Nonconformance_and_Containment
+      R: [Quality Director, QC Inspector Lead]
+      A: Quality Director
+      C: [Process Engineer, Maintenance Manager, Operations Manager]
+      I: [Production Director, Engineering Director]
+    - activity: Pack_Label_Ship_and_Logistics
+      R: [Warehouse Logistics Manager]
+      A: Supply Chain Manager
+      C: [Inventory Control Specialist, QC Inspector Lead, Procurement Specialist]
+      I: [Operations Manager, Finance/Cost Controller]
+    - activity: Finance_Close_and_Metrics
+      R: [Finance/Cost Controller]
+      A: Production Director
+      C: [Operations Manager, Supply Chain Manager, Quality Director]
+      I: [Engineering Director]
+
+  kpi_targets:
+    - name: OTD_batch_level
+      definition: "On-time delivery for the batch (ship vs. commit)"
+      target: "≥ 98%"
+    - name: FPY
+      definition: "First Pass Yield at assembly line"
+      target: "≥ 97%"
+    - name: Scrap_Rate
+      definition: "Scrap as % of throughput (batch)"
+      target: "≤ 1.0%"
+    - name: Setup_to_Run_Readiness_Time
+      definition: "Time from setup start to first good part (PPA)"
+      target: "≤ 30 min (line-dependent)"
+    - name: Inventory_Accuracy
+      target: "≥ 99.5%"
+    - name: Maintenance_MTBF_MTTR_compliance
+      target: "Green per asset class"
+    - name: Safety_Incidents
+      target: "0 recordables; 100% PTW/LOTO compliance"
+
+  phases:
+    - id: P0
+      name: SIOP→MPS→Batch Release
+      owner: Production Planning Manager
+      dependencies: []
+      overlap_allowed: false
+      entry_criteria:
+        - sales_order_or_replenishment_request_approved
+        - capacity_check_RCCP_done
+      tasks_mandatory:
+        - tasks: "Production Planning Manager → convert demand to MPS; release WO; set due dates and quantities"
+          refs: ["planning/S&OP policy", "MRP parameters"]
+        - tasks: "IT Systems Admin → master data delta import (items/BOM/routing); integrity check"
+          refs: ["templates/output/bom-routing-labor-overhead-tmpl.yaml"]
+      gates:
+        - name: G0-Batch-Release
+          checklist:
+            - demand_qty_dates_locked
+            - material_availability_window_positive
+            - critical_tools_available
+          approvers: [Operations Manager, Supply Chain Manager]
+      exit_criteria:
+        - production_work_orders_created_and_released
+        - picklists_generated
+
+    - id: P1
+      name: Engineering Readiness & Quality Plan
+      owner: Engineering Director
+      dependencies: [P0]
+      overlap_allowed: true
+      entry_criteria:
+        - new_or_changed_part OR customer_revision
+      tasks_mandatory:
+        - tasks: "Process Engineer → PFMEA/Control Plan/Work Instruction update; rev-control in QMS"
+          refs: ["12-process-engineer", "templates/output/controls-hierarchy-plan-tmpl.yaml"]
+        - tasks: "Test & Validation Manager → special characteristic validation, gauge R&R needs"
+        - tasks: "Quality Director → inspection plan & MSA availability; COQ impacts"
+      gates:
+        - name: G1-PPAP_or_Eng-Readiness
+          checklist:
+            - bom_routing_baselined
+            - control_plan_version_effective
+            - gauges_and_fixtures_ready
+          approvers: [Engineering Director, Quality Director]
+      exit_criteria:
+        - control_documents_published_to_MES/LMS
+
+    - id: P2
+      name: Supplier Readiness & Procurement
+      owner: Supply Chain Manager
+      dependencies: [P0, P1]
+      overlap_allowed: true
+      entry_criteria:
+        - purchase_kanban/MRP_suggestions_available
+      tasks_mandatory:
+        - tasks: "Procurement Specialist → PO release / vendor commit / ASN plan"
+          refs: ["15-procurement-specialist.md"]
+        - tasks: "Warehouse Logistics Manager → inbound slots & labeling spec"
+        - tasks: "Safety EHS Officer → chemical/hazard review for new materials"
+      gates:
+        - name: G2-Materials-Ready
+          checklist:
+            - PO_confirm_rate_100pct_critical
+            - safety_stock_not_breached
+            - inbound_window_booked
+          approvers: [Supply Chain Manager]
+      exit_criteria:
+        - materials_received_QC_cleared_and_staged
+
+    - id: P3
+      name: Line/Cell Preparation (PTW/LOTO/Setup)
+      owner: Operations Manager
+      dependencies: [P1, P2]
+      overlap_allowed: false
+      entry_criteria:
+        - materials_kitted
+        - tools/fixtures_available
+      tasks_mandatory:
+        - tasks: "Maintenance Manager → PM completed; changeover readiness; spares check"
+        - tasks: "Safety EHS Officer → PTW/LOTO as needed; pre-start area green tag"
+          refs: ["19-safety-ehs-officer → PTW/LOTO checklists"]
+        - tasks: "HR Training Coordinator → operator certification validity check; LMS sync"
+        - tasks: "IT Systems Admin → MES order download; label/handheld sanity"
+      gates:
+        - name: G3-First-Article-Approval (PPA)
+          checklist:
+            - first_piece_measurement_OK
+            - torque/press/vision_params_locked
+            - traceability_labels_verified
+          approvers: [Quality Director, Operations Manager]
+      exit_criteria:
+        - line_green_status_ready_to_run
+
+    - id: P4
+      name: Machining & Stamping
+      owner: Workshop Supervisor
+      dependencies: [P3]
+      overlap_allowed: false
+      entry_criteria:
+        - cnc_programs_and_stamp_tools_loaded
+      tasks_mandatory:
+        - tasks: "Machining Center Manager → run-up & SPC sampling plan; tool life baseline"
+        - tasks: "Stamping Press Operator → die setup & tryout log; lubricant/spec check"
+        - tasks: "QC Inspector Lead → in-process inspection frequency & reaction plan"
+      gates:
+        - name: G4-Process-Stable
+          checklist:
+            - spc_Cpk_above_target
+            - scrap_rate_within_threshold
+          approvers: [Quality Director]
+      exit_criteria:
+        - WIP_ready_for_assembly
+
+    - id: P5
+      name: Assembly & In-Process QA
+      owner: Assembly Line Lead
+      dependencies: [P4]
+      overlap_allowed: true
+      entry_criteria:
+        - WIP_from_machining_available
+      tasks_mandatory:
+        - tasks: "Assembly Line Lead → pace & changeover control; Andon rules; Poka-Yoke status"
+        - tasks: "QC Inspector Lead → final inspection/COC sampling; MSA spot-check"
+      gates:
+        - name: G5-Final-Quality-OK-to-Pack
+          checklist:
+            - FPY_meets_target
+            - critical_characteristics_pass
+            - defect_rate_under_threshold
+          approvers: [Quality Director]
+      exit_criteria:
+        - batch_status=GOOD; serialized/traceability complete
+
+    - id: P6
+      name: Pack, Label & Ship
+      owner: Warehouse Logistics Manager
+      dependencies: [P5]
+      overlap_allowed: false
+      entry_criteria:
+        - batch_status_GOOD
+      tasks_mandatory:
+        - tasks: "Warehouse Logistics Manager → pack per spec; AIAG/labels; ASN setup"
+        - tasks: "Inventory Control Specialist → WMS booking; inventory accuracy check"
+        - tasks: "Supply Chain Manager → transportation booking & route; POD plan"
+      gates:
+        - name: G6-Ship-Confirm
+          checklist:
+            - COA/inspection_report_attached_if_required
+            - packing_list_invoice_ready
+            - ASN_transmitted
+          approvers: [Supply Chain Manager]
+      exit_criteria:
+        - goods_shipped; POD_expected_date_registered
+
+    - id: P7
+      name: Close, Learn & Improve
+      owner: Production Director
+      dependencies: [P6]
+      overlap_allowed: true
+      entry_criteria:
+        - shipment_confirmed
+      tasks_mandatory:
+        - tasks: "Finance/Cost Controller → cost variance bridge & posting (PPV/usage/efficiency/absorption)"
+          refs: ["variance-bridge template"]
+        - tasks: "Quality Director → NCMR/complaints review (if any); lessons learned"
+        - tasks: "Maintenance Manager → MTBF/MTTR update; downtime Pareto; spares usage"
+        - tasks: "Operations Manager → KPI dashboard; A3/Kaizen; best-practice share"
+      exit_criteria:
+        - KPIs_updated; actions_assigned_with_due_dates
+
+  data_and_artifacts:
+    systems_of_record:
+      - ERP: work_orders, postings, inventory, invoicing
+      - MES: execution, traceability, SPC, Andon
+      - QMS: control_plan, inspection, NCMR, PPAP
+      - WMS/TMS: inbound/outbound, ASN, labels, POD
+      - LMS: operator certifications
+    templates:
+      - control_plan: templates/output/controls-hierarchy-plan-tmpl.yaml
+      - inspection_plan: templates/output/audit-lpa-checklist-tmpl.yaml
+      - kpi_dashboard: templates/output/ehs-kpi-dashboard-tmpl.yaml
+      - cost_bridge: templates/output/variance-bridge-tmpl.yaml
+    evidence_policy: "If not documented, it didn’t happen — store in DMS with WO+date key; retain per policy."
+
+  communications_cadence:
+    - daily: "Tier meeting (SQDC) — Operations Manager leads; Andon review"
+    - weekly: "Batch KPI review — Ops + Quality + Supply Chain + Maintenance"
+    - monthly: "MPR — Production Director chairs; Finance margin bridge"
+
+  risk_controls_and_checks:
+    - EHS_gate: "PTW/LOTO/Confined space/high-risk permits validated by EHS before setup"
+    - Training_gate: "operator certification validity checked before MES login"
+    - Change_gate: "any engineering change via MOC; documents version-controlled"
+    - Cyber_gate: "IT approves any interface or scanner config change via RFC (ITIL)"
+    - Supplier_gate: "critical supplier OTIF & quality performance above threshold for release"
+
+  sla_definitions:
+    - name: Order_to_Release
+      target_hours: 24
+    - name: Setup_to_First_Good
+      target_minutes: 30
+    - name: QC_Turnaround_for_Final_Lot
+      target_minutes: 45
+    - name: ASN_Posting_after_Ship
+      target_minutes: 30
+
+  exception_management:
+    - case: material_shortage_after_release
+      action: "Trigger substitution or expedite; re-run G2; notify Ops & Finance for cost impact"
+    - case: first_article_fail
+      action: "Containment; start 8D; revert to P1 for control revision; re-run G3"
+    - case: unplanned_downtime>60min
+      action: "Maintenance rapid response; spare escalation; Finance to cost the downtime; reschedule MPS"
+    - case: quality_spike_in_line
+      action: "Andon escalation; raise NCMR; temporary 100% inspection; root cause & CAPA"

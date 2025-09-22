@@ -1,0 +1,11 @@
+meta:
+  name: Special Process Qualification
+  version: 1.0.0
+  created_at: "2025-09-20T06:46:15.611304"
+fields:
+  - field: process
+    type: string
+  - field: parameters_window
+    type: string
+  - field: qualification_evidence
+    type: string

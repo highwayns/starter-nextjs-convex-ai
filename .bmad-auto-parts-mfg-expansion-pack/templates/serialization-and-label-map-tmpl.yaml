@@ -1,0 +1,11 @@
+meta:
+  name: Serialization & Label Map
+  version: 1.0.0
+  created_at: "2025-09-20T08:13:19.903202"
+fields:
+  - field: serial_rule
+    type: string
+  - field: label_fields
+    type: string
+  - field: asn_mapping
+    type: string

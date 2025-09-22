@@ -1,0 +1,11 @@
+meta:
+  name: Traceability Report
+  version: 1.0.0
+  created_at: "2025-09-20T07:06:18.959981"
+fields:
+  - field: trigger_batch
+    type: string
+  - field: upstream_lots
+    type: string
+  - field: downstream_shipments
+    type: string

@@ -1,0 +1,13 @@
+meta:
+  name: Safety Stock Calculation
+  version: 1.0.0
+  created_at: "2025-09-20T07:06:18.952525"
+fields:
+  - field: sku
+    type: string
+  - field: lead_time_days
+    type: number
+  - field: demand_sigma
+    type: number
+  - field: safety_stock
+    type: number

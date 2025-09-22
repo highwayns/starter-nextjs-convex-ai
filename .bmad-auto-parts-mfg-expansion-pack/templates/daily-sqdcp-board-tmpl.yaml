@@ -1,0 +1,23 @@
+meta:
+  name: Daily SQDCP Board
+  version: 1.0.0
+  created_at: "2025-09-20T07:35:50.947981"
+fields:
+  - field: date
+    type: date
+  - field: shift
+    type: enum
+    values:
+      - A
+      - B
+      - C
+  - field: safety
+    type: string
+  - field: quality
+    type: string
+  - field: delivery
+    type: string
+  - field: cost
+    type: string
+  - field: people
+    type: string

@@ -1,0 +1,15 @@
+meta:
+  name: Emissions Monitoring Log
+  version: 1.0.0
+  created_at: "2025-09-20T12:59:32.130564"
+fields:
+  - field: stack_id
+    type: string
+  - field: parameter
+    type: string
+  - field: value
+    type: number
+  - field: unit
+    type: string
+  - field: timestamp
+    type: datetime

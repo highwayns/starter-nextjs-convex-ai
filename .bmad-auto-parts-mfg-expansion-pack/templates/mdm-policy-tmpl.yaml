@@ -1,0 +1,11 @@
+meta:
+  name: MDM Policy
+  version: 1.0.0
+  created_at: "2025-09-20T13:28:29.300105"
+fields:
+  - field: platform
+    type: string
+  - field: policy_name
+    type: string
+  - field: key_settings
+    type: string

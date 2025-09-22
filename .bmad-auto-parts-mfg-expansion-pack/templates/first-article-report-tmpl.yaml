@@ -1,0 +1,13 @@
+meta:
+  name: First Article Report
+  version: 1.0.0
+  created_at: "2025-09-20T07:12:11.242041"
+fields:
+  - field: part_no
+    type: string
+  - field: rev
+    type: string
+  - field: features
+    type: string
+  - field: result
+    type: string

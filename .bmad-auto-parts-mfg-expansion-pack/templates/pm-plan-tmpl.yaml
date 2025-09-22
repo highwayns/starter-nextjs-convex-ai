@@ -1,0 +1,13 @@
+meta:
+  name: PM Plan
+  version: 1.0.0
+  created_at: "2025-09-20T08:50:36.339995"
+fields:
+  - field: asset_id
+    type: string
+  - field: tasks
+    type: string
+  - field: frequency
+    type: string
+  - field: route
+    type: string

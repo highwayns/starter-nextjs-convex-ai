@@ -1,0 +1,17 @@
+meta:
+  name: Finite Capacity Plan
+  version: 1.0.0
+  created_at: "2025-09-20T07:06:18.940099"
+fields:
+  - field: work_center
+    type: string
+  - field: order_id
+    type: string
+  - field: start
+    type: datetime
+  - field: end
+    type: datetime
+  - field: setup_time_min
+    type: number
+  - field: run_time_min
+    type: number

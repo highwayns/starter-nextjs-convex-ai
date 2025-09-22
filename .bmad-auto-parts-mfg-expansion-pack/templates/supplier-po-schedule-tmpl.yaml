@@ -1,0 +1,15 @@
+meta:
+  name: Supplier PO Schedule
+  version: 1.0.0
+  created_at: "2025-09-20T07:06:18.955401"
+fields:
+  - field: supplier_id
+    type: string
+  - field: po_no
+    type: string
+  - field: item_code
+    type: string
+  - field: qty
+    type: number
+  - field: need_date
+    type: date

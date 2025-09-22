@@ -1,0 +1,13 @@
+meta:
+  name: External Lab Qualification
+  version: 1.0.0
+  created_at: "2025-09-20T07:53:44.567209"
+fields:
+  - field: lab_name
+    type: string
+  - field: iso17025_scope
+    type: string
+  - field: cert_status
+    type: string
+  - field: audit_findings
+    type: string

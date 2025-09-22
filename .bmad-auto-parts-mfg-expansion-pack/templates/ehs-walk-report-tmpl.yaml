@@ -1,0 +1,13 @@
+meta:
+  name: EHS Walk Report
+  version: 1.0.0
+  created_at: "2025-09-20T07:29:35.995740"
+fields:
+  - field: date
+    type: date
+  - field: area
+    type: string
+  - field: risks
+    type: string
+  - field: actions
+    type: string

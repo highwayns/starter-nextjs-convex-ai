@@ -1,0 +1,13 @@
+meta:
+  name: Scrap & Rework Cost Log
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.004973"
+fields:
+  - field: item
+    type: string
+  - field: defect_family
+    type: string
+  - field: qty
+    type: number
+  - field: unit_cost
+    type: number

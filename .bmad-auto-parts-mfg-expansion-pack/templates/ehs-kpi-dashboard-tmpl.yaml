@@ -1,0 +1,17 @@
+meta:
+  name: EHS KPI Dashboard
+  version: 1.0.0
+  created_at: "2025-09-20T12:59:32.165062"
+fields:
+  - field: period
+    type: string
+  - field: trir
+    type: number
+  - field: ltifr
+    type: number
+  - field: closure_days
+    type: number
+  - field: compliance_score
+    type: number
+  - field: carbon_intensity
+    type: number

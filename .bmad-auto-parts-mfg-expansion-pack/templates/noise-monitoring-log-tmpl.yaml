@@ -1,0 +1,13 @@
+meta:
+  name: Noise Monitoring Log
+  version: 1.0.0
+  created_at: "2025-09-20T12:59:32.147232"
+fields:
+  - field: location
+    type: string
+  - field: dba
+    type: number
+  - field: duration_min
+    type: number
+  - field: shift
+    type: string

@@ -1,0 +1,13 @@
+meta:
+  name: Price-Volume-Mix Bridge
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.054406"
+fields:
+  - field: period
+    type: string
+  - field: price
+    type: number
+  - field: volume
+    type: number
+  - field: mix
+    type: number

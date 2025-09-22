@@ -1,0 +1,11 @@
+meta:
+  name: AQL/SPC/MSA Interface
+  version: 1.0.0
+  created_at: "2025-09-20T07:40:39.294674"
+fields:
+  - field: spc_points
+    type: string
+  - field: aql_plan
+    type: string
+  - field: msa_scope
+    type: string

@@ -1,0 +1,11 @@
+meta:
+  name: Packaging Spec (AIAG/Customer)
+  version: 1.0.0
+  created_at: "2025-09-20T08:13:19.902648"
+fields:
+  - field: pack_bom
+    type: string
+  - field: aiag_ref
+    type: string
+  - field: customer_req
+    type: string

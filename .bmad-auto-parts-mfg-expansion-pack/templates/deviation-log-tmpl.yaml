@@ -1,0 +1,13 @@
+meta:
+  name: Deviation Log
+  version: 1.0.0
+  created_at: "2025-09-20T07:53:44.570258"
+fields:
+  - field: deviation_id
+    type: string
+  - field: reason
+    type: string
+  - field: approval
+    type: string
+  - field: impact
+    type: string

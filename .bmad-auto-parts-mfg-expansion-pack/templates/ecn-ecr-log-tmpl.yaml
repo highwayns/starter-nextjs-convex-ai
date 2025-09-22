@@ -1,0 +1,13 @@
+meta:
+  name: ECN/ECR Log
+  version: 1.0.0
+  created_at: "2025-09-20T07:45:24.987257"
+fields:
+  - field: change_id
+    type: string
+  - field: type
+    type: string
+  - field: scope
+    type: string
+  - field: effectivity
+    type: string

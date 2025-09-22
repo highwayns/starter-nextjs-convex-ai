@@ -1,0 +1,11 @@
+meta:
+  name: PPAP Support Index
+  version: 1.0.0
+  created_at: "2025-09-20T07:53:44.582446"
+fields:
+  - field: element
+    type: string
+  - field: evidence
+    type: string
+  - field: status
+    type: string

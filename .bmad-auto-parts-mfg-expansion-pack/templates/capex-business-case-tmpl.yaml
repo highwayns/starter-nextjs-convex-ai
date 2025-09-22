@@ -1,0 +1,15 @@
+meta:
+  name: CAPEX Business Case
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.017434"
+fields:
+  - field: project
+    type: string
+  - field: capex
+    type: number
+  - field: savings_annual
+    type: number
+  - field: irr
+    type: number
+  - field: payback_months
+    type: number

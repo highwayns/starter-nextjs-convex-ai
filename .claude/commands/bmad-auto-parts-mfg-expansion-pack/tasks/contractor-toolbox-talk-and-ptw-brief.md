@@ -1,0 +1,1 @@
+../../../../.bmad-auto-parts-mfg-expansion-pack/tasks/contractor-toolbox-talk-and-ptw-brief.md

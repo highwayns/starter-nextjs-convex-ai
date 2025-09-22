@@ -1,0 +1,15 @@
+meta:
+  name: BOM/Routing/Labor/Overhead
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.000596"
+fields:
+  - field: item
+    type: string
+  - field: bom
+    type: string
+  - field: routing
+    type: string
+  - field: labor_rate
+    type: number
+  - field: oh_rate
+    type: number

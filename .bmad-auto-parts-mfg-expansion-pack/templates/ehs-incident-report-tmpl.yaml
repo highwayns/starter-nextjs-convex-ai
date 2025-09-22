@@ -1,0 +1,19 @@
+meta:
+  name: EHS Incident Report
+  version: 1.0.0
+  created_at: "2025-09-20T06:59:35.566047"
+fields:
+  - field: date
+    type: datetime
+  - field: location
+    type: string
+  - field: severity
+    type: enum
+    values:
+      - Near Miss
+      - Minor
+      - Major
+  - field: description
+    type: string
+  - field: corrective_actions
+    type: string

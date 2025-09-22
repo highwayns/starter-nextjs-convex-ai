@@ -1,0 +1,15 @@
+meta:
+  name: Routing Sheet
+  version: 1.0.0
+  created_at: "2025-09-20T07:45:24.968476"
+fields:
+  - field: item_code
+    type: string
+  - field: operation_seq
+    type: number
+  - field: work_center
+    type: string
+  - field: std_time_sec
+    type: number
+  - field: inspection_point
+    type: string

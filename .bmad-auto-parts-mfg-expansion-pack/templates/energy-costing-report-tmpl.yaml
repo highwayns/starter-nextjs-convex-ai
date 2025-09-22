@@ -1,0 +1,15 @@
+meta:
+  name: Energy Costing Report
+  version: 1.0.0
+  created_at: "2025-09-20T13:07:33.016159"
+fields:
+  - field: period
+    type: string
+  - field: kwh
+    type: number
+  - field: nm3
+    type: number
+  - field: m3
+    type: number
+  - field: unit_cost
+    type: number

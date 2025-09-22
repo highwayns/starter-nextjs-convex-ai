@@ -1,0 +1,11 @@
+meta:
+  name: KB Article Template
+  version: 1.0.0
+  created_at: "2025-09-20T13:28:29.323962"
+fields:
+  - field: title
+    type: string
+  - field: problem
+    type: string
+  - field: resolution_steps
+    type: string

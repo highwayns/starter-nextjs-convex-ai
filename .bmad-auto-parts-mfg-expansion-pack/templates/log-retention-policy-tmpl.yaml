@@ -1,0 +1,11 @@
+meta:
+  name: Log Retention Policy
+  version: 1.0.0
+  created_at: "2025-09-20T13:28:29.321377"
+fields:
+  - field: source
+    type: string
+  - field: retention_days
+    type: number
+  - field: storage
+    type: string

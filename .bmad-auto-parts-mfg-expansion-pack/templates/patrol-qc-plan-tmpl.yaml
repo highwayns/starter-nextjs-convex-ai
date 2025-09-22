@@ -1,0 +1,11 @@
+meta:
+  name: Patrol QC Plan
+  version: 1.0.0
+  created_at: "2025-09-20T07:12:11.242859"
+fields:
+  - field: route
+    type: string
+  - field: checkpoints
+    type: string
+  - field: special_characteristics
+    type: string

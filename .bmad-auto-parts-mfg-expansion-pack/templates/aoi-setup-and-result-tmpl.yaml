@@ -1,0 +1,13 @@
+meta:
+  name: AOI Setup & Result
+  version: 1.0.0
+  created_at: "2025-09-20T07:35:50.963988"
+fields:
+  - field: station_id
+    type: string
+  - field: illumination
+    type: string
+  - field: thresholds
+    type: string
+  - field: yield
+    type: number

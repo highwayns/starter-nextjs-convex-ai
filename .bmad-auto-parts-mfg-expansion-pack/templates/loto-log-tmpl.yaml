@@ -1,0 +1,15 @@
+meta:
+  name: LOTO Log
+  version: 1.0.0
+  created_at: "2025-09-20T12:59:32.106648"
+fields:
+  - field: asset_id
+    type: string
+  - field: energy_sources
+    type: string
+  - field: isolation_points
+    type: string
+  - field: zero_energy_verified
+    type: string
+  - field: date
+    type: date
