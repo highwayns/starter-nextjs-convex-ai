@@ -149,3 +149,6 @@ test-coverage/
 /apps/web/*.png
 /apps/convex/*.png
 /apps/workers/log-ingestion/*.png
+.claude/
+.bmad-core/
+.bmad-auto-parts-mfg-expansion-pack/
